@@ -6,28 +6,16 @@ module.exports = {
       transparent: "transparent",
       white: "#ffffff",
       black: "#000000",
-      shPrimary: {
-        light: "#ff7ae7",
-        DEFAULT: "#ff2ed8",
-        dark: "#cc25ad",
-        darker: "#80176c",
+      primary: {
+        light: "#E43452",
+        DEFAULT: "#A3263A",
+        dark: "#631724",
       },
-      shSecondary: {
-        DEFAULT: "#2194ff",
-        dark: "#1b76cc",
-        darker: "#114a80",
-      },
-      shTertiary: {
-        green: "#14ff6f",
-        yellow: "#f0ff47",
-      },
-      shBase: {
-        light: "#a692a6",
-        medium: "#665a66",
-        dark: "#332d33",
-        darker: "#1a171a",
-        contrast: "#ebe4ea",
-        contrastDark: "#d1cbd0",
+
+      base: {
+        light: "#CCCCCC",
+        DEFAULT: "#474747",
+        dark: "#B0B0B0",
       },
     },
     extend: {},

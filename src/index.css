@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
