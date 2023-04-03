@@ -3,6 +3,8 @@ import Header from "./components/Header";
 
 //Page components
 import Categories from "./pages/Home/components/Categories";
+import Blog from "./pages/Home/components/Blog";
+import Xmas from "./pages/Home/components/Xmas";
 
 function Home() {
   return (
@@ -12,10 +14,17 @@ function Home() {
           <Header></Header>
         </section>
         <section className="flex-auto w-ful bg-black mt-4">
-          <div className=" h-96 w-full bg-primary">
+          <div className=" h-4/5 sm:h-2/5 w-full bg-primary">
             <Categories />
           </div>
-          <div className="h-96 w-full bg-primary-dark">Hola</div>
+          <div className=" h-4/5 sm:h-2/5 w-full bg-primary-dark sm:grid sm:grid-cols-2">
+            <div className=" bg-white h-1/2">
+              <Blog />
+            </div>
+            <div className=" bg-base-dark h-1/2">
+              <Xmas />
+            </div>
+          </div>
         </section>
       </div>
     </div>
