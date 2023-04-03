@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Categories() {
   return (
-    <div className="bg-white w-full h-full border border-primary-light">
-      <h2 className=" text-base-medium font-semibold text-lg w-full text-center pt-2 tracking-wide">
+    <div className="bg-white w-full h-full border-b border-base-light border-opacity-40">
+      <h2 className=" text-base-medium font-semibold text-base w-full text-center pt-2 tracking-wide">
         Categorías
       </h2>
       <div className="w-full h-1/2 grid grid-cols-2 p-6">

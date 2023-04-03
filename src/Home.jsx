@@ -1,5 +1,6 @@
 //General components
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 //Page components
 import Categories from "./pages/Home/components/Categories";
@@ -14,16 +15,19 @@ function Home() {
           <Header></Header>
         </section>
         <section className="flex-auto w-ful bg-black mt-4">
-          <div className=" h-4/5 sm:h-2/5 w-full bg-primary">
+          <div className=" h-4/5 sm:h-3/5 w-full bg-white">
             <Categories />
           </div>
-          <div className=" h-4/5 sm:h-2/5 w-full bg-primary-dark sm:grid sm:grid-cols-2">
-            <div className=" bg-white h-1/2">
+          <div className=" h-4/5 sm:h-2/5 w-full bg-base-dark sm:grid sm:grid-cols-2">
+            <div className=" bg-white h-1/2 sm:h-full">
               <Blog />
             </div>
-            <div className=" bg-base-dark h-1/2">
+            <div className=" bg-white h-1/2 sm:h-full">
               <Xmas />
             </div>
+          </div>
+          <div className="bg-base-medium py-2">
+            <Footer />
           </div>
         </section>
       </div>
