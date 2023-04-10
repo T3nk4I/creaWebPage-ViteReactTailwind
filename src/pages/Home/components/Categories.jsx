@@ -4,10 +4,10 @@ import Carrousel from "../../../components/Carrousel";
 export default function Categories() {
   return (
     <div className="bg-white w-full h-full border-b border-base-light border-opacity-40">
-      <h2 className=" h-1/6 text-base-medium font-semibold text-base w-full text-center pt-2 tracking-wide">
+      <h2 className=" h-1/6 text-base-medium font-semibold text-base w-full tracking-wide flex place-items-center justify-center">
         Categorías
       </h2>
-      <div className="w-full h-5/6 pt-2">
+      <div className="w-full h-5/6">
         <Carrousel />
       </div>
       {/* <div className="w-full h-1/2 grid grid-cols-2 p-6">
