@@ -4,7 +4,7 @@ import DropDownMenu from "./DropDownMenu";
 
 export default function Header() {
   return (
-    <div className="opacity-90 px-4 flex place-items-center h-full w-full border-b-2 border-b-primary-dark border-opacity-75 ">
+    <div className="opacity-90 px-4 py-1 flex place-items-center h-full w-full border-b-2 border-b-primary-dark border-opacity-75 ">
       <button className="h-full flex-shrink-0">
         <img src={creaLogo} alt="CREA Logo" className="h-full" />
       </button>
@@ -17,16 +17,24 @@ export default function Header() {
         </div>
         <div className="flex flex-shrink-0 justify-end pr-4">
           <button className=" hover:text-primary-light text-primary-dark font-semibold">
-            <h3 className=" lg:text-lg xl:text-xl 2xl:text-2xl">Contacto</h3>
+            <h3 className="md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+              Contacto
+            </h3>
           </button>
           <button className=" hover:text-primary-light ml-10">
-            <h3 className=" lg:text-lg xl:text-xl 2xl:text-2xl">Torneos</h3>
+            <h3 className="md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+              Torneos
+            </h3>
           </button>
           <button className=" hover:text-primary-light ml-10">
-            <h3 className=" lg:text-lg xl:text-xl 2xl:text-2xl">Misión</h3>
+            <h3 className="md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+              Misión
+            </h3>
           </button>
           <button className=" hover:text-primary-light ml-10">
-            <h3 className=" lg:text-lg xl:text-xl 2xl:text-2xl">Visión</h3>
+            <h3 className="md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+              Visión
+            </h3>
           </button>
         </div>
       </div>

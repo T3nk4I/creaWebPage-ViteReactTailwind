@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className=" text-base-dark">
+    <div className=" text-base-dark z-0">
       <h4 className=" text-xs text-center py-1">
         Instituto Politécnico Nacional
       </h4>
