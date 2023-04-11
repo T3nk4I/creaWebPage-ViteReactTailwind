@@ -5,7 +5,7 @@ export default function Xmas() {
   return (
     <div className="h-full w-full border-b border-base-light border-opacity-40">
       <div className="">
-        <h2 className="text-base-medium font-semibold text-base w-full text-center pt-4 pb-2 tracking-wide">
+        <h2 className="font-bold text-base text-primary-dark w-full text-center pt-4 pb-2 tracking-wide">
           Xmas
         </h2>
         <h4 className="text-base-medium text-opacity-75 font-semibold text-xs w-full text-center pb-4 tracking-wide">
