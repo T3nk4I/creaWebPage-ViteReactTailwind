@@ -52,14 +52,14 @@ export default function Carrousel() {
           style={{ backgroundImage: `url(${imagesArray[currentIndex].image})` }}
         />
         <div
-          className="opacity-40 group-hover:opacity-100 absolute top-[50%] translate-x-0 translate-y-[-50%] left-2 text-2xl rounded-xl px-2 py-3 bg-black/20 hover:bg-black/40 text-white
+          className="opacity-70 group-hover:opacity-100 absolute top-[50%] translate-x-0 translate-y-[-50%] left-2 text-2xl rounded-xl px-2 py-3 bg-black/40 hover:bg-black/50 text-white
          cursor-pointer duration-75  "
         >
           {/* Left arrow */}
           <BsChevronCompactLeft size={20} onClick={prevSlide} />
         </div>
         <div
-          className="opacity-40 group-hover:opacity-100 absolute top-[50%] translate-x-0 translate-y-[-50%] right-2 text-2xl rounded-xl px-2 py-3 bg-black/20 hover:bg-black/40 text-white
+          className="opacity-60 group-hover:opacity-100 absolute top-[50%] translate-x-0 translate-y-[-50%] right-2 text-2xl rounded-xl px-2 py-3 bg-black/40 hover:bg-black/50 text-white
          cursor-pointer duration-75"
         >
           {/* Right arrow */}
