@@ -18,15 +18,15 @@ function Home() {
           <div className=" h-4/5 w-full z-30 shadow-xl">
             <Categories />
           </div>
-          <div className=" h-5/6 sm:h-2/5 w-full bg-base-dark sm:grid sm:grid-cols-2">
-            <div className=" bg-white h-1/2 sm:h-full z-20 shadow-xl">
+          <div className=" h-5/6 sm:h-2/5 w-full sm:grid sm:grid-cols-2">
+            <div className=" bg-white h-1/2 sm:h-full z-20">
               <Blog />
             </div>
-            <div className=" bg-white h-1/2 sm:h-full z-10 shadow-xl ">
+            <div className=" bg-white h-1/2 sm:h-full z-10 ">
               <Xmas />
             </div>
           </div>
-          <div className="bg-base-medium py-2 z-0">
+          <div className="py-2 sm:h-1/6 z-40">
             <Footer />
           </div>
         </section>

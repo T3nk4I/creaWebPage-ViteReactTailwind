@@ -2,14 +2,16 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className=" text-base-dark z-0">
-      <h4 className=" text-xs text-center py-1">
+    <div className=" bg-base-medium sm:h-full border border-primary">
+      <h5 className=" text-xs text-center py-1 text-base-dark">
         Instituto Politécnico Nacional
-      </h4>
-      <h4 className=" text-xs text-center py-1">
+      </h5>
+      <h5 className=" text-xs text-center py-1 text-base-dark">
         Escuela Superior de Ingeniería Mecánica y Eléctrica
-      </h4>
-      <h5 className=" text-xs text-center py-1">Unidad Azcapotzalco</h5>
+      </h5>
+      <h5 className=" text-xs text-center py-1 text-base-dark">
+        Unidad Azcapotzalco
+      </h5>
     </div>
   );
 }
