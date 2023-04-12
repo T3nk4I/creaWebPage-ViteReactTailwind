@@ -3,7 +3,7 @@ import elCreaTeNecesita from "../assets/elCreaTeNecesita.jpeg";
 
 export default function Xmas() {
   return (
-    <div className="h-full w-full border-b border-base-light border-opacity-40">
+    <div className="h-full w-full">
       <div className="">
         <h2 className="font-bold text-base text-primary-dark w-full text-center pt-4 pb-2 tracking-wide">
           Xmas

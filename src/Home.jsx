@@ -18,7 +18,7 @@ function Home() {
           <div className=" h-4/5 w-full z-30 shadow-xl">
             <Categories />
           </div>
-          <div className=" h-5/6 sm:h-2/5 w-full sm:grid sm:grid-cols-2">
+          <div className=" h-5/6 sm:h-2/5 w-full sm:grid sm:grid-cols-2 mb-4">
             <div className=" bg-white h-1/2 sm:h-full z-20">
               <Blog />
             </div>
@@ -26,7 +26,7 @@ function Home() {
               <Xmas />
             </div>
           </div>
-          <div className="py-2 sm:h-1/6 z-40">
+          <div className="bg-base-medium py-2 sm:h-1/6 z-40">
             <Footer />
           </div>
         </section>

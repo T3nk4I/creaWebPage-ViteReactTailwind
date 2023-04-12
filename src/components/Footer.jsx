@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className=" bg-base-medium sm:h-full border border-primary">
+    <div className="sm:h-full border border-primary">
       <h5 className=" text-xs text-center py-1 text-base-dark">
         Instituto Politécnico Nacional
       </h5>
