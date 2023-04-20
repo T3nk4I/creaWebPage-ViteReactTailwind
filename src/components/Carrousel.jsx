@@ -4,7 +4,7 @@ import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 
-//Images import. Import your own images or it wont work
+//Images import. Import your own images or it wont work. Just change the link
 import image1 from "../pages/Home/assets/battlebots.webp";
 import image2 from "../pages/Home/assets/minisumos.webp";
 import image3 from "../pages/Home/assets/seguidores.webp";

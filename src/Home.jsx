@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className="p-0 m-0 w-screen ">
       <div className="h-screen">
-        <section className=" bg-white h-14 md:h-16 lg:h-20 xl:h-24 2xl:h-32 w-full mt-1 lg:mt-2 px-2 sticky top-0 z-40">
+        <section className=" bg-white h-12 lg:h-14 xl:h-16 2xl:h-20  w-full mt-1 lg:mt-2 px-2 sticky top-0 z-40">
           <Header></Header>
         </section>
         <section className="h-full w-full bg-black mt-3">

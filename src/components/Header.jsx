@@ -15,26 +15,18 @@ export default function Header() {
         <div className="flex-auto text-center text-xl lg:text-2xl text-base-light md:tracking-[.2em] lg:tracking-[.3em] xl:tracking-[.5em] 2xl:tracking-[.7em] opacity-75 uppercase invisible md:visible">
           Club de Robótica
         </div>
-        <div className="flex flex-shrink-0 justify-end pr-4">
-          <button className=" hover:text-primary-light text-primary-dark font-semibold">
-            <h3 className="md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-              Contacto
-            </h3>
+        <div className="flex flex-shrink-0 justify-end pr-4 text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl">
+          <button className=" hover:text-primary-light text-primary-dark font-semibold ">
+            <h3>Contacto</h3>
           </button>
           <button className=" hover:text-primary-light ml-10">
-            <h3 className="md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-              Torneos
-            </h3>
+            <h3>Torneos</h3>
           </button>
           <button className=" hover:text-primary-light ml-10">
-            <h3 className="md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-              Misión
-            </h3>
+            <h3>Misión</h3>
           </button>
           <button className=" hover:text-primary-light ml-10">
-            <h3 className="md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-              Visión
-            </h3>
+            <h3>Visión</h3>
           </button>
         </div>
       </div>
