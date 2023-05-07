@@ -45,63 +45,29 @@ export default function Carrousel() {
 
   return (
     //Has w-full and h-full to adjust its entire size as its father, where will be imported
-    <div className="w-full h-full xl:w-5/6 2xl:w-4/6 xl:mx-auto ">
+    <div className="w-full h-full xl:w-5/6 2xl:w-4/6 xl:mx-auto flex flex-col items-center justify-center ">
       <div className="group bg-base-dark h-4/6 min-w-full m-auto">
         <div
-          className=" h-full max-w-full bg-cover bg-center bg-white"
+          className=" h-full max-w-full bg-cover bg-center bg-white flex items-center justify-between"
           style={{ backgroundImage: `url(${imagesArray[currentIndex].image})` }}
-        />
+        >
+          {/* --- Left arrows --- */}
 
-        {/* --- Left arrows --- */}
-        <div
-          className="visible sm:collapse opacity-60 group-hover:opacity-100 absolute top-[50%] sm:top-[44%] translate-x-0 translate-y-[-50%] left-2 text-2xl rounded-xl px-2 py-3 bg-black/40 hover:bg-black/50 text-white
-         cursor-pointer duration-75 "
-        >
-          <BsChevronCompactLeft size={20} onClick={prevSlide} />
-        </div>
-        <div
-          className="collapse sm:visible md:collapse opacity-60 group-hover:opacity-100 absolute top-[50%] sm:top-[44%] translate-x-0 translate-y-[-50%] left-2 text-2xl rounded-xl px-2 py-3 bg-black/40 hover:bg-black/50 text-white
-         cursor-pointer duration-75 "
-        >
-          <BsChevronCompactLeft size={27} onClick={prevSlide} />
-        </div>
-        <div
-          className="collapse md:visible lg:collapse opacity-60 group-hover:opacity-100 absolute top-[50%] sm:top-[44%] translate-x-0 translate-y-[-50%] left-2 text-2xl rounded-xl px-2 py-3 bg-black/40 hover:bg-black/50 text-white
-         cursor-pointer duration-75 "
-        >
-          <BsChevronCompactLeft size={40} onClick={prevSlide} />
-        </div>
-        <div
-          className="collapse lg:visible opacity-60 group-hover:opacity-100 absolute top-[50%] sm:top-[44%] lg:top-[45%] translate-x-0 translate-y-[-50%] left-8 2xl:left-24  text-2xl rounded-xl px-2 py-3 bg-black/40 hover:bg-black/50 text-white
-         cursor-pointer duration-75 "
-        >
-          <BsChevronCompactLeft size={60} onClick={prevSlide} />
-        </div>
+          <div
+            className="opacity-60 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
+          cursor-pointer duration-75 py-2 mx-3"
+          >
+            <BsChevronCompactLeft size={60} onClick={prevSlide} />
+          </div>
 
-        {/* --- Right arrows --- */}
-        <div
-          className="visible sm:collapse opacity-60 group-hover:opacity-100 absolute top-[50%] sm:top-[44%] translate-x-0 translate-y-[-50%] right-2 text-3xl rounded-xl px-2 py-3 bg-black/40 hover:bg-black/50 text-white
-         cursor-pointer duration-75 "
-        >
-          <BsChevronCompactRight size={20} onClick={nextSlide} />
-        </div>
-        <div
-          className="collapse sm:visible md:collapse opacity-60 group-hover:opacity-100 absolute top-[50%] sm:top-[44%] translate-x-0 translate-y-[-50%] right-2 text-3xl rounded-xl px-2 py-3 bg-black/40 hover:bg-black/50 text-white
-         cursor-pointer duration-75 "
-        >
-          <BsChevronCompactRight size={27} onClick={nextSlide} />
-        </div>
-        <div
-          className="collapse md:visible lg:collapse opacity-60 group-hover:opacity-100 absolute top-[50%] sm:top-[44%] translate-x-0 translate-y-[-50%] right-2 text-3xl rounded-xl px-2 py-3 bg-black/40 hover:bg-black/50 text-white
-         cursor-pointer duration-75 "
-        >
-          <BsChevronCompactRight size={40} onClick={nextSlide} />
-        </div>
-        <div
-          className="collapse lg:visible opacity-60 group-hover:opacity-100 absolute top-[50%] lg:top-[45%] translate-x-0 translate-y-[-50%] right-8 2xl:right-24  text-3xl rounded-xl px-2 py-3 bg-black/40 hover:bg-black/50 text-white
-         cursor-pointer duration-75 "
-        >
-          <BsChevronCompactRight size={60} onClick={nextSlide} />
+          {/* --- Right arrows --- */}
+
+          <div
+            className="opacity-60 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
+          cursor-pointer duration-75 py-2 mx-3"
+          >
+            <BsChevronCompactRight size={60} onClick={prevSlide} />
+          </div>
         </div>
       </div>
 

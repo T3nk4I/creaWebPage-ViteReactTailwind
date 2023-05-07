@@ -1,4 +1,5 @@
 import React from "react";
+import Carrousel from "../../../components/Carrousel";
 
 export default function Blog() {
   return (
@@ -6,7 +7,9 @@ export default function Blog() {
       <h2 className="font-bold text-base text-primary-dark w-full text-center pt-4 tracking-wide">
         Blog
       </h2>
-      <div></div>
+      <div className=" h-3/6 w-full">
+        <Carrousel />
+      </div>
     </div>
   );
 }
