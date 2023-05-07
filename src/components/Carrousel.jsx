@@ -45,62 +45,118 @@ export default function Carrousel() {
 
   return (
     //Has w-full and h-full to adjust its entire size as its father, where will be imported
-    <div className="w-full h-full xl:w-5/6 2xl:w-4/6 xl:mx-auto flex flex-col items-center justify-center ">
-      <div className="group bg-base-dark h-4/6 min-w-full m-auto">
+    <div className="w-full xl:mx-auto xl:w-4/6 h-full mx-auto flex flex-col items-center justify-center pb-6">
+      <div className="group bg-base-dark h-5/6 h- min-w-full m-auto">
         <div
-          className=" h-full max-w-full bg-cover bg-center bg-white flex items-center justify-between"
+          className=" h-full max-w-full bg-cover bg-center bg-white flex items-center justify-between px-3 md:px-5 xl:px-7"
           style={{ backgroundImage: `url(${imagesArray[currentIndex].image})` }}
         >
           {/* --- Left arrows --- */}
+          <div
+            className=" block sm:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
+          cursor-pointer duration-75 py-2"
+          >
+            <BsChevronCompactLeft size={25} onClick={prevSlide} />
+          </div>
 
           <div
-            className="opacity-60 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
-          cursor-pointer duration-75 py-2 mx-3"
+            className=" hidden sm:block md:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
+          cursor-pointer duration-75 py-2"
           >
-            <BsChevronCompactLeft size={60} onClick={prevSlide} />
+            <BsChevronCompactLeft size={35} onClick={prevSlide} />
+          </div>
+
+          <div
+            className=" hidden md:block xl:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
+          cursor-pointer duration-75 py-2"
+          >
+            <BsChevronCompactLeft size={40} onClick={prevSlide} />
+          </div>
+
+          <div
+            className=" hidden xl:block 2xl:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
+          cursor-pointer duration-75 py-2"
+          >
+            <BsChevronCompactLeft size={45} onClick={prevSlide} />
+          </div>
+
+          <div
+            className=" hidden 2xl:block  opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
+          cursor-pointer duration-75 py-2"
+          >
+            <BsChevronCompactLeft size={50} onClick={prevSlide} />
           </div>
 
           {/* --- Right arrows --- */}
 
           <div
-            className="opacity-60 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
-          cursor-pointer duration-75 py-2 mx-3"
+            className=" block sm:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
+          cursor-pointer duration-75 py-2"
           >
-            <BsChevronCompactRight size={60} onClick={prevSlide} />
+            <BsChevronCompactRight size={25} onClick={nextSlide} />
+          </div>
+
+          <div
+            className=" hidden sm:block md:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
+          cursor-pointer duration-75 py-2"
+          >
+            <BsChevronCompactRight size={35} onClick={nextSlide} />
+          </div>
+
+          <div
+            className=" hidden md:block xl:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
+          cursor-pointer duration-75 py-2"
+          >
+            <BsChevronCompactRight size={40} onClick={nextSlide} />
+          </div>
+
+          <div
+            className=" hidden xl:block 2xl:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
+          cursor-pointer duration-75 py-2"
+          >
+            <BsChevronCompactRight size={45} onClick={nextSlide} />
+          </div>
+
+          <div
+            className=" hidden 2xl:block  opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
+          cursor-pointer duration-75 py-2"
+          >
+            <BsChevronCompactRight size={50} onClick={nextSlide} />
           </div>
         </div>
       </div>
 
       {/* --- Section name --- */}
-      <div className=" sm:text-xl md:text-2xl lg:text-3xl h-1/6 flex place-items-center justify-center text-black/60">
-        {imagesArray[currentIndex].name}
-      </div>
 
-      {/* --- Section dots --- */}
-      <div className=" h-1/6 flex place-items-baseline justify-center">
-        {imagesArray.map((slide, index) => {
-          if (index === currentIndex) {
-            return (
-              <div
-                className=" text-2xl sm:text-3xl cursor-pointer scale-125 text-black/60 "
-                key={index}
-                onClick={() => goToSlide(index)}
-              >
-                <RxDotFilled />
-              </div>
-            );
-          } else {
-            return (
-              <div
-                className=" text-2xl sm:text-3xl cursor-pointer text-black/20 "
-                key={index}
-                onClick={() => goToSlide(index)}
-              >
-                <RxDotFilled />
-              </div>
-            );
-          }
-        })}
+      <div className=" sm:text-base md:text-lg lg:text-xl h-1/6 flex flex-col place-items-center justify-center text-black/60">
+        {/* -- Section dots -- */}
+        <div className=" h-1/2 flex place-items-baseline justify-center">
+          {imagesArray.map((slide, index) => {
+            if (index === currentIndex) {
+              return (
+                <div
+                  className=" text-xl sm:text-2xl cursor-pointer scale-125 text-black/60 "
+                  key={index}
+                  onClick={() => goToSlide(index)}
+                >
+                  <RxDotFilled />
+                </div>
+              );
+            } else {
+              return (
+                <div
+                  className=" text-xl sm:text-2xl cursor-pointer text-black/20 "
+                  key={index}
+                  onClick={() => goToSlide(index)}
+                >
+                  <RxDotFilled />
+                </div>
+              );
+            }
+          })}
+        </div>
+
+        <div className="h-1/2">{imagesArray[currentIndex].name}</div>
       </div>
     </div>
   );
