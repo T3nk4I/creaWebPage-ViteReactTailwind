@@ -45,7 +45,7 @@ export default function Carrousel() {
 
   return (
     //Has w-full and h-full to adjust its entire size as its father, where will be imported
-    <div className="w-full xl:mx-auto xl:w-4/6 h-full mx-auto flex flex-col items-center justify-center pb-6">
+    <div className="w-full lg:mx-auto lg:w-5/6 xl:w-4/6 h-full mx-auto flex flex-col items-center justify-center pb-6">
       <div className="group bg-base-dark h-5/6 h- min-w-full m-auto">
         <div
           className=" h-full max-w-full bg-cover bg-center bg-white flex items-center justify-between px-3 md:px-5 xl:px-7"
