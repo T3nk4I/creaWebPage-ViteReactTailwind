@@ -135,7 +135,7 @@ export default function Carrousel() {
             if (index === currentIndex) {
               return (
                 <div
-                  className=" text-xl sm:text-2xl cursor-pointer scale-125 text-black/60 "
+                  className=" text-xl sm:text-2xl cursor-pointer scale-125 text-primary"
                   key={index}
                   onClick={() => goToSlide(index)}
                 >
