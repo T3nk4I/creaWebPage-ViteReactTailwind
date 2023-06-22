@@ -128,7 +128,7 @@ export default function Carrousel() {
 
       {/* --- Section name --- */}
 
-      <div className=" sm:text-base md:text-lg lg:text-xl h-1/6 flex flex-col place-items-center justify-center text-black/60">
+      <div className=" sm:text-base md:text-lg lg:text-xl h-1/6 flex flex-col place-items-center justify-center text-base-lightOrange ">
         {/* -- Section dots -- */}
         <div className=" h-1/2 flex place-items-baseline justify-center">
           {imagesArray.map((slide, index) => {
