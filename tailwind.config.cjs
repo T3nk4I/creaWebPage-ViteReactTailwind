@@ -15,7 +15,7 @@ module.exports = {
 
       base: {
         light: "#CCCCCC",
-        lightOrange: "#695030",
+        lightOrange: "#5f4c32",
         medium: "#474747",
         dark: "#B0B0B0",
       },
