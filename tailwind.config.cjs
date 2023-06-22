@@ -11,6 +11,7 @@ module.exports = {
         DEFAULT: "#A3263A",
         dark: "#631724",
       },
+      complementary: "darkorange",
 
       base: {
         light: "#CCCCCC",

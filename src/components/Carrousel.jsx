@@ -53,36 +53,36 @@ export default function Carrousel() {
         >
           {/* --- Left arrows --- */}
           <div
-            className=" block sm:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
-          cursor-pointer duration-75 py-2"
+            className=" block sm:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/60 text-white
+          cursor-pointer duration-75 py-3"
           >
             <BsChevronCompactLeft size={25} onClick={prevSlide} />
           </div>
 
           <div
-            className=" hidden sm:block md:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
-          cursor-pointer duration-75 py-2"
+            className=" hidden sm:block md:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/60 text-white
+          cursor-pointer duration-75 py-3"
           >
             <BsChevronCompactLeft size={35} onClick={prevSlide} />
           </div>
 
           <div
-            className=" hidden md:block xl:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
-          cursor-pointer duration-75 py-2"
+            className=" hidden md:block xl:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/60 text-white
+          cursor-pointer duration-75 py-3"
           >
             <BsChevronCompactLeft size={40} onClick={prevSlide} />
           </div>
 
           <div
-            className=" hidden xl:block 2xl:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
-          cursor-pointer duration-75 py-2"
+            className=" hidden xl:block 2xl:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/60 text-white
+          cursor-pointer duration-75 py-3"
           >
             <BsChevronCompactLeft size={45} onClick={prevSlide} />
           </div>
 
           <div
-            className=" hidden 2xl:block  opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
-          cursor-pointer duration-75 py-2"
+            className=" hidden 2xl:block  opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/60 text-white
+          cursor-pointer duration-75 py-3"
           >
             <BsChevronCompactLeft size={50} onClick={prevSlide} />
           </div>
@@ -90,36 +90,36 @@ export default function Carrousel() {
           {/* --- Right arrows --- */}
 
           <div
-            className=" block sm:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
-          cursor-pointer duration-75 py-2"
+            className=" block sm:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/60 text-white
+          cursor-pointer duration-75 py-3"
           >
             <BsChevronCompactRight size={25} onClick={nextSlide} />
           </div>
 
           <div
-            className=" hidden sm:block md:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
-          cursor-pointer duration-75 py-2"
+            className=" hidden sm:block md:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/60 text-white
+          cursor-pointer duration-75 py-3"
           >
             <BsChevronCompactRight size={35} onClick={nextSlide} />
           </div>
 
           <div
-            className=" hidden md:block xl:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
-          cursor-pointer duration-75 py-2"
+            className=" hidden md:block xl:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/60 text-white
+          cursor-pointer duration-75 py-3"
           >
             <BsChevronCompactRight size={40} onClick={nextSlide} />
           </div>
 
           <div
-            className=" hidden xl:block 2xl:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
-          cursor-pointer duration-75 py-2"
+            className=" hidden xl:block 2xl:hidden opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/60 text-white
+          cursor-pointer duration-75 py-3"
           >
             <BsChevronCompactRight size={45} onClick={nextSlide} />
           </div>
 
           <div
-            className=" hidden 2xl:block  opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/50 text-white
-          cursor-pointer duration-75 py-2"
+            className=" hidden 2xl:block  opacity-40 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/40 hover:bg-black/60 text-white
+          cursor-pointer duration-75 py-3"
           >
             <BsChevronCompactRight size={50} onClick={nextSlide} />
           </div>
@@ -135,7 +135,7 @@ export default function Carrousel() {
             if (index === currentIndex) {
               return (
                 <div
-                  className=" text-xl sm:text-2xl cursor-pointer scale-125 text-primary"
+                  className=" text-xl sm:text-2xl cursor-pointer scale-150 text-complementary "
                   key={index}
                   onClick={() => goToSlide(index)}
                 >
@@ -145,7 +145,7 @@ export default function Carrousel() {
             } else {
               return (
                 <div
-                  className=" text-xl sm:text-2xl cursor-pointer text-black/20 "
+                  className=" text-xl sm:text-2xl scale-110  cursor-pointer text-black/30 "
                   key={index}
                   onClick={() => goToSlide(index)}
                 >
