@@ -20,7 +20,7 @@ function Xmas () {
             </section>
             <section className=' flex flex-col lg:flex-col-reverse lg:pr-14  '>
               <div className='mx-auto mt-8 w-fit flex-none'>
-                <Link to='/register' className=' text-base font-medium rounded-xl py-2 px-3 transition-colors bg-complementary hover:bg-primary  hover:text-white active:bg-primary-light active:text-white '>
+                <Link to='/register' className=' text-base font-medium rounded-xl py-3 px-6 transition-colors bg-complementary hover:bg-primary  hover:text-white active:bg-primary-light active:text-white '>
                   Inscribete
                 </Link>
               </div>

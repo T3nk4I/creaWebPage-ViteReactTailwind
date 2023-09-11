@@ -19,7 +19,7 @@ export default function Carrousel () {
     { image: image1, name: 'Guerra de Robots' },
     { image: image2, name: 'Minisumos' },
     { image: image3, name: 'Seguidor de linea' },
-    { image: image4, name: 'Futbolito' },
+    { image: image4, name: 'Robosoccer' },
     { image: image5, name: 'Laberinto' },
     { image: image6, name: 'Carrera de insectos' },
     { image: image7, name: 'Drones' }
