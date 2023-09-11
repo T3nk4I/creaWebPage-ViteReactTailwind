@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "name": "Minisumo autónomo profesional",
+        "categoryId": "minisumoAutonomoProfesional"
+    },
+    {
+        "id": "2",
+        "name": "Minisumo autónomo amateur",
+        "categoryId": "minisumoAutonomoAmateur"
+    },
+    {
+        "id": "3",
+        "name": "Minisumo RC profesional",
+        "categoryId": "minisumoRcProfesional"
+    },
+    {
+        "id": "4",
+        "name": "Minisumo RC amateur",
+        "categoryId": "minisumoRcAmateur"
+    },
+    {
+        "id": "5",
+        "name": "Sumo 3kg",
+        "categoryId": "sumo3kg"
+    },
+    {
+        "id": "6",
+        "name": "Microsumo",
+        "categoryId": "microsumo"
+    },
+    {
+        "id": "",
+        "name": "Seguidor de línea profesional",
+        "categoryId": "seguidorDeLineaProfesional"
+    },
+    {
+        "id": "7",
+        "name": "Seguidor de línea amateur",
+        "categoryId": "seguidorDeLineaAmateur"
+    },
+    {
+        "id": "8",
+        "name": "Guerra 1 lb",
+        "categoryId": "guerra1Lb"
+    },
+    {
+        "id": "9",
+        "name": "Guerra 3 lb",
+        "categoryId": "guerra3Lb"
+    },
+    {
+        "id": "10",
+        "name": "Guerra 12 lb",
+        "categoryId": "guerra12Lb"
+    },
+    {
+        "id": "11",
+        "name": "Robosoccer",
+        "categoryId": "robosoccer"
+    }
+]
