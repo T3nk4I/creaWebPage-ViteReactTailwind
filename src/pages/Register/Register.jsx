@@ -1,9 +1,9 @@
 import { useQuestionsStore } from '../../store/questions'
 // import Questions from './components/Questions'
-import categoriesData from './categoriesData.json'
+import categoriesData from './data/categoriesData.json'
 
 export default function Register () {
-  const currentQuestion = useQuestionsStore(state => state.currentQuestion)
+  // const currentQuestion = useQuestionsStore(state => state.currentQuestion)
   const currentCategory = useQuestionsStore(state => state.currentCategory)
   const categorySelected = useQuestionsStore(state => state.categorySelected)
 
@@ -12,12 +12,8 @@ export default function Register () {
 
   const handleClick = (category) => {
     setStartingData()
-    console.log('-------------')
-    console.log(categorySelected)
     setCategory(category)
   }
-  console.log('currentQuestion: ', currentQuestion)
-  console.log('categorySelected', categorySelected)
 
   return (
     <div className='p-0 m-0 pt-8 bg-white min-h-screen'>

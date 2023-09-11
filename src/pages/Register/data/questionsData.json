@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "question": "¿Cúal es tu institución de procedencia? En caso de no pertenecer a alguna puedes escribir Independiente",
+        "answer": ""
+    },
+    {
+        "id": "2",
+        "question": "¿Cómo se llama tu robot?",
+        "answer": ""
+    },
+    {
+        "id": "3",
+        "question": "¿Cómo se llama tu equipo? En caso de no tener nombre puedes escribir Ninguno",
+        "answer": ""
+    },
+    {
+        "id": "4",
+        "question": "¿Cuántos son en el equipo?",
+        "answer": ""
+    },
+    {
+        "id": "5",
+        "question": "¿Cómo se llama el lider de tu equipo?",
+        "answer": ""
+    },
+    {
+        "id": "6",
+        "question": "Escribe los nombres de los demás integrantes, separalos con comas. Si solo eres tú, puedes escribir Ninguno",
+        "answer": ""
+    },
+    {
+        "id": "7",
+        "question": "Por último dinos ¿Cómo te enteraste del evento?",
+        "answer": ""
+    }
+]
