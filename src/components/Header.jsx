@@ -11,7 +11,7 @@ export default function Header () {
           <img src={creaLogo} alt='CREA Logo' className='h-full' />
         </Link>
       </button>
-      <div className=' flex-auto flex justify-end visible sm:collapse'>
+      <div className='absolute right-6 visible sm:collapse ml-auto'>
         <DropDownMenu />
       </div>
       <div className=' collapse sm:visible flex flex-auto overflow-x-hidden'>

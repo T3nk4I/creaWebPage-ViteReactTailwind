@@ -14,7 +14,7 @@ function Xmas () {
             <section className=' flex flex-col lg:flex-col lg:pr-14 w-full lg:w-1/2'>
 
               <div className=' flex-1 cursor-default'>
-                <p className=' max-w-prose text-base mx-auto px-12 pt-7 '>
+                <p className=' max-w-prose text-base mx-auto px-12 pt-6 '>
                   Xmas es el evento anual donde se une la{' '}
                   <strong>robótica de competencia</strong> y el{' '}
                   <strong>networking</strong> entre entusiastas de la tecnologia,
@@ -36,7 +36,7 @@ function Xmas () {
             </section>
             <section className='w-screen lg:w-1/2'>
               <div className=' mt-6 pl-6 pr-2 h-80 flex items-center mx-auto w-full'>
-                <img src={snowMan} alt='' className=' w-1/2' />
+                <img src={snowMan} alt='' className=' w-1/2 p-3' />
                 <img src={creaLogo} alt='' className=' w-1/2' />
               </div>
             </section>

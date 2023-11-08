@@ -18,7 +18,7 @@ export default function Register () {
   console.log(questions)
   return (
     <div className='p-0 m-0 pt-8 bg-white min-h-screen'>
-      <div className=' bg-base-light/50 rounded-3xl p-10 w-1/2 mx-auto'>
+      <div className=' bg-base-light/50 rounded-3xl p-10 w-5/6 lg:w-1/2 mx-auto'>
         {categorySelected === false && (
           <div>
             <h2 className=' text-base lg:text-xl font-semibold w-fit mx-auto'>Selecciona la categoría en la que quieres realizar tu registro</h2>
@@ -43,7 +43,7 @@ export default function Register () {
       </div>
       <div className=' text-center'>
 
-        <button onClick={() => setStartingData()} className=' m-6 font-medium rounded-xl py-2 px-4 transition-colors bg-base-dark hover:bg-primary text-white active:bg-primary-light '>Reiniciar</button>
+        <button onClick={() => setStartingData()} className='text-sm lg:text-base m-6 font-medium rounded-xl py-2 px-4 transition-colors bg-base-dark hover:bg-primary text-white active:bg-primary-light '>Reiniciar</button>
       </div>
     </div>
   )

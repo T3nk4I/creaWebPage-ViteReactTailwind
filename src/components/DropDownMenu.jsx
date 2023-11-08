@@ -10,7 +10,7 @@ export default function DropDownMenu () {
   return (
     <Menu as='div'>
       <div>
-        <Menu.Button className='w-fullrounded-md bg-white px-3 py-2 shadow-sm'>
+        <Menu.Button>
           <img src={menuLogo} alt='menu' />
         </Menu.Button>
       </div>

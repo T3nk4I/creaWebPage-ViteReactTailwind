@@ -28,7 +28,7 @@ export default function Questions () {
     <>
       <form>
         <label className=' font-semibold'>{questionInfo.question}</label>
-        <input type='text' value={answ} onChange={(e) => setAnsw(e.target.value)} className='w-full outline-none rounded-lg p-3 mt-8' />
+        <input type='text' value={answ} onChange={(e) => setAnsw(e.target.value)} className='text-sm lg:text-base w-full outline-none rounded-lg p-3 mt-8' />
       </form>
       <div className='w-full grid grid-rows-1 grid-cols-3 mt-6'>
         <button
@@ -42,17 +42,17 @@ export default function Questions () {
           }}
           hidden={questionInfo.id === 0}
           key='bt2'
-          className='place-self-center justify-self-start h-fit mx-2 font-normal rounded-xl py-2 px-3 transition-colors bg-complementary hover:bg-darkComplementary active:bg-primary active:text-white'
+          className=' text-xs lg:text-base place-self-center justify-self-end h-fit font-normal rounded-xl py-2 px-3 mx-3 transition-colors bg-complementary hover:bg-darkComplementary active:bg-primary active:text-white'
         >Anterior
         </button>
-        <img src={snowMan} alt='mascota oficial del CREA' className=' h-28 mx-auto' />
+        <img src={snowMan} alt='mascota oficial del CREA' className=' h-full mx-auto' />
         <button
           onClick={() => {
             handleClickNext(questionInfo.id, answ)
           }}
           hidden={questionInfo.id === 6}
           key='bt3'
-          className='place-self-center justify-self-end h-fit mx-2 font-normal rounded-xl py-2 px-3 transition-colors bg-complementary hover:bg-darkComplementary active:bg-primary active:text-white '
+          className='text-xs lg:text-base place-self-center justify-self-start h-fit font-normal rounded-xl py-2 px-3 mx-3 transition-colors bg-complementary hover:bg-darkComplementary active:bg-primary active:text-white '
         >Siguiente
         </button>
         <button
@@ -61,7 +61,7 @@ export default function Questions () {
           }}
           hidden={questionInfo.id !== 6}
           key='bt4'
-          className='place-self-center justify-self-end h-fit mx-2 font-normal rounded-xl py-2 px-3 transition-colors text-white bg-primary-light hover:bg-primary active:bg-primary-dark'
+          className='text-xs lg:text-base place-self-center justify-self-start h-fit font-normal rounded-xl py-2 px-3 transition-colors text-white bg-primary-light hover:bg-primary active:bg-primary-dark'
         >Finalizar
         </button>
       </div>
