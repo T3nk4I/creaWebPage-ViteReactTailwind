@@ -1,20 +1,21 @@
 import { useQuestionsStore } from '../../store/questions'
-// import Questions from './components/Questions'
 import categoriesData from './data/categoriesData.json'
+import Questions from './components/Questions'
 
 export default function Register () {
-  // const currentQuestion = useQuestionsStore(state => state.currentQuestion)
-  const currentCategory = useQuestionsStore(state => state.currentCategory)
   const categorySelected = useQuestionsStore(state => state.categorySelected)
+  const questions = useQuestionsStore(state => state.questions)
 
   const setStartingData = useQuestionsStore(state => state.setStartingData)
   const setCategory = useQuestionsStore(state => state.setCategory)
+  const setQuestions = useQuestionsStore(state => state.setQuestions)
 
   const handleClick = (category) => {
     setStartingData()
     setCategory(category)
+    setQuestions()
   }
-
+  console.log(questions)
   return (
     <div className='p-0 m-0 pt-8 bg-white min-h-screen'>
       <div className=' bg-base-light/50 rounded-3xl p-10 w-1/2 mx-auto'>
@@ -37,12 +38,12 @@ export default function Register () {
           </div>
         )}
 
-        {categorySelected === true && currentCategory}
+        {categorySelected === true && <Questions />}
 
       </div>
       <div className=' text-center'>
 
-        <button onClick={() => setStartingData()} className=' m-6 font-medium rounded-xl py-2 px-4 transition-colors bg-primary-dark hover:bg-primary text-white active:bg-primary-light '>Reiniciar</button>
+        <button onClick={() => setStartingData()} className=' m-6 font-medium rounded-xl py-2 px-4 transition-colors bg-base-dark hover:bg-primary text-white active:bg-primary-light '>Reiniciar</button>
       </div>
     </div>
   )

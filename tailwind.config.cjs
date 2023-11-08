@@ -12,6 +12,7 @@ module.exports = {
         dark: '#631724'
       },
       complementary: 'darkorange',
+      darkComplementary: '#e27c00',
 
       base: {
         light: '#CCCCCC',
