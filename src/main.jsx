@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { pageName } from './const.js'
 
 import './index.css'
 
@@ -21,40 +20,31 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route
         index
         element={
-          <div className=' max-w-full min-w-[936px] font-sans font-light '>
-            <Home />
-          </div>
-          }
-      />
-
-      <Route
-        path={`${pageName}`}
-        element={
-          <div className=' max-w-full min-w-[936px] font-sans font-light '>
+          <div className=' max-w-full font-sans font-light '>
             <Home />
           </div>
           }
       />
       <Route
-        path={`${pageName}/home`}
+        path='/home'
         element={
-          <div className=' max-w-full min-w-[936px] font-sans font-light '>
+          <div className=' max-w-full font-sans font-light '>
             <Home />
           </div>
           }
       />
       <Route
-        path={`${pageName}/xmas`}
+        path='/xmas'
         element={
-          <div className=' max-w-full min-w-[936px] font-sans font-light '>
+          <div className=' max-w-full font-sans font-light '>
             <Xmas />
           </div>
           }
       />
       <Route
-        path={`${pageName}/register`}
+        path='/register'
         element={
-          <div className=' max-w-full min-w-[936px] font-sans font-light '>
+          <div className=' max-w-full font-sans font-light '>
             <Register />
           </div>
           }

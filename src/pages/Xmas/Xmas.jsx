@@ -5,8 +5,6 @@ import snowMan from '../../assets/snowMan.png'
 import creaLogo from '../../assets/creaLogo.jpeg'
 import { Link } from 'react-router-dom'
 
-import { pageName } from '../../const'
-
 function Xmas () {
   return (
     <div className=' max-w-screen p-0 m-0 pt-14 bg-white'>
@@ -30,16 +28,16 @@ function Xmas () {
                   7 y 8 de Diciembre ¡No faltes!
                 </h3>
                 <div className='mx-auto mt-8 w-fit flex-none'>
-                  <Link to={`${pageName}/register`} className=' text-base font-medium rounded-xl py-3 px-6 transition-colors bg-complementary hover:bg-primary  hover:text-white active:bg-primary-light active:text-white '>
+                  <Link to='/register' className=' text-base font-medium rounded-xl py-3 px-6 transition-colors bg-complementary hover:bg-primary  hover:text-white active:bg-primary-light active:text-white '>
                     Inscribete
                   </Link>
                 </div>
               </div>
             </section>
             <section className='w-screen lg:w-1/2'>
-              <div className=' mt-6 h-80 flex items-center mx-auto'>
-                <img src={snowMan} alt='' className=' h-full' />
-                <img src={creaLogo} alt='' className=' h-3/4 ml-10 ' />
+              <div className=' mt-6 pl-6 pr-2 h-80 flex items-center mx-auto w-full'>
+                <img src={snowMan} alt='' className=' w-1/2' />
+                <img src={creaLogo} alt='' className=' w-1/2' />
               </div>
             </section>
           </main>

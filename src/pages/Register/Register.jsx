@@ -21,14 +21,14 @@ export default function Register () {
       <div className=' bg-base-light/50 rounded-3xl p-10 w-1/2 mx-auto'>
         {categorySelected === false && (
           <div>
-            <h2 className=' text-xl font-semibold w-fit mx-auto'>Selecciona la categoría en la que quieres realizar tu registro</h2>
+            <h2 className=' text-base lg:text-xl font-semibold w-fit mx-auto'>Selecciona la categoría en la que quieres realizar tu registro</h2>
             <section className=' mt-8'>
               {categoriesData.map((element) => (
                 <button
                   key={element.id}
                   onClick={() => {
                     handleClick(element.categoryId)
-                  }} className=' m-2 font-normal rounded-xl py-2 px-3 transition-colors bg-complementary hover:bg-primary  hover:text-white active:bg-primary-light active:text-white'
+                  }} className=' text-xs lg:text-base m-2 font-normal rounded-xl py-2 px-3 transition-colors bg-complementary hover:bg-primary  hover:text-white active:bg-primary-light active:text-white'
                 >{element.name}
                 </button>
               ))}

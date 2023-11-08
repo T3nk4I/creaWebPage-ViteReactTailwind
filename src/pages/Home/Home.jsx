@@ -7,17 +7,13 @@ import Categories from './components/Categories'
 import Blog from './components/Blog'
 import Xmas from './components/Xmas'
 
-// Assets
-import VideoBack from '../../components/VideoBack'
-
 function Home () {
   return (
     <div className='p-0 m-0 bg-white w-full'>
       <div>
-        <section className='w-full'>
+        <section className='w-full bg-white'>
           <div className=' bg h-96 w-full'>
-            <VideoBack />
-            <div className='bg-white h-full w-full z-10 mt-2'>
+            <div className='bg-white h-full w-full z-10 pt-2'>
               <Categories />
             </div>
           </div>
