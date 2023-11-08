@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { pageName } from './const.js'
 
 import './index.css'
 
@@ -25,8 +26,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           </div>
           }
       />
+
       <Route
-        path='creaWebPage-ViteReactTailwind/home'
+        path={`${pageName}`}
         element={
           <div className=' max-w-full min-w-[936px] font-sans font-light '>
             <Home />
@@ -34,7 +36,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           }
       />
       <Route
-        path='creaWebPage-ViteReactTailwind/xmas'
+        path={`${pageName}/home`}
+        element={
+          <div className=' max-w-full min-w-[936px] font-sans font-light '>
+            <Home />
+          </div>
+          }
+      />
+      <Route
+        path={`${pageName}/xmas`}
         element={
           <div className=' max-w-full min-w-[936px] font-sans font-light '>
             <Xmas />
@@ -42,7 +52,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           }
       />
       <Route
-        path='/register'
+        path={`${pageName}/register`}
         element={
           <div className=' max-w-full min-w-[936px] font-sans font-light '>
             <Register />
