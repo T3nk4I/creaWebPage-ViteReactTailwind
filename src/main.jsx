@@ -26,7 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           }
       />
       <Route
-        path='/home'
+        path='creaWebPage-ViteReactTailwind/home'
         element={
           <div className=' max-w-full min-w-[936px] font-sans font-light '>
             <Home />
@@ -34,7 +34,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           }
       />
       <Route
-        path='/xmas'
+        path='creaWebPage-ViteReactTailwind/xmas'
         element={
           <div className=' max-w-full min-w-[936px] font-sans font-light '>
             <Xmas />
