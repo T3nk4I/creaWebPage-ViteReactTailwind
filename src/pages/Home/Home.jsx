@@ -19,10 +19,10 @@ function Home () {
           </div>
           <div className=' h-96 w-full sm:flex'>
             <div className='bg-white w-full h-1/2 sm:h-full sm:w-1/2 border border-base-light border-opacity-40'>
-              <Blog />
+              <Xmas />
             </div>
             <div className='bg-white w-full h-1/2 sm:h-full sm:w-1/2 border border-base-light border-opacity-50'>
-              <Xmas />
+              <Blog />
             </div>
           </div>
         </section>

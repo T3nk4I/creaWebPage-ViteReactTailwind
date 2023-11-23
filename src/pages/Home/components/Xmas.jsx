@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import elCreaTeNecesita from '../assets/elCreaTeNecesita.jpeg'
+import creaNeedYou from '../assets/creaNeedYou.webp'
 
 export default function Xmas () {
   return (
@@ -9,12 +9,12 @@ export default function Xmas () {
         <div className='w-full text-center pt-4'>
 
           <h2 className='font-bold text-lg text-primary-dark tracking-wide'>
-            <Link to='/xmas' className=' cursor-pointer hover:text-primary-light '>
+            <Link to='/xmas' className=' cursor-pointer hover:text-primary-light hover:underline '>
               Xmas
             </Link>
           </h2>
-          <h4 className='hidden sm:block text-base-medium text-opacity-75 font-semibold text-xs w-full text-center  pt-2 pb-4 tracking-wide'>
-            <Link to='/xmas' className=' cursor-pointer hover:text-primary'>
+          <h4 className='hidden sm:block text-base-medium text-opacity-75 font-semibold text-sm w-full text-center  pt-2 pb-4 tracking-wide'>
+            <Link to='/xmas' className=' cursor-pointer hover:text-primary hover:underline'>
               ¡Conoce nuestro evento anual más importante! Inscríbete
             </Link>
           </h4>
@@ -22,7 +22,7 @@ export default function Xmas () {
       </div>
       <div className=' h-3/4 flex place-content-center pb-4'>
         <Link to='/xmas' className=' cursor-pointer h-full'>
-          <img src={elCreaTeNecesita} alt='' className=' h-full' />
+          <img src={creaNeedYou} alt='' className=' h-full' />
         </Link>
       </div>
     </div>
