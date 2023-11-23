@@ -1,5 +1,6 @@
 import { useState } from 'react'
 
+import { Link } from 'react-router-dom'
 // Icons (arrows and dots) import. You need to install the library: npm install react-icons
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 import { RxDotFilled } from 'react-icons/rx'
@@ -7,16 +8,16 @@ import { RxDotFilled } from 'react-icons/rx'
 // You can delete or modify any object in the array
 export default function Carrousel () {
   const imagesArray = [
-    { name: 'Minisumo autónomo profesional', link: 'some' },
-    { name: 'Minisumo RC profesional', link: 'some' },
-    { name: 'Minisumo autónomo amateur', link: 'some' },
-    { name: 'Minisumo RC amateur', link: 'some' },
+    { name: 'Minisumo autónomo profesional', link: 'https://docs.google.com/document/d/1k5rlef1_2SyRy3tnRFDPJI_7D0vdKj6_lh6LedBeh5c/edit#heading=h.lrxxfbed5gkl' },
+    { name: 'Minisumo RC profesional', link: 'https://docs.google.com/document/d/1k5rlef1_2SyRy3tnRFDPJI_7D0vdKj6_lh6LedBeh5c/edit#heading=h.lrxxfbed5gkl' },
+    { name: 'Minisumo autónomo amateur', link: 'https://docs.google.com/document/d/1k5rlef1_2SyRy3tnRFDPJI_7D0vdKj6_lh6LedBeh5c/edit#heading=h.lrxxfbed5gkl' },
+    { name: 'Minisumo RC amateur', link: 'https://docs.google.com/document/d/1k5rlef1_2SyRy3tnRFDPJI_7D0vdKj6_lh6LedBeh5c/edit#heading=h.lrxxfbed5gkl' },
     { name: 'Microsumo', link: 'some' },
     { name: 'Seguidor de línea profesional', link: 'some' },
     { name: 'Seguidor de línea amateur', link: 'some' },
-    { name: 'Guerra 1 lb', link: 'some' },
-    { name: 'Guerra 3 lb', link: 'some' },
-    { name: 'Guerra 12 lb', link: 'some' },
+    { name: 'Guerra 1 lb', link: 'https://docs.google.com/document/d/17QN0frI29Gl5NHOOpmWr1Euv9XmDuQrkkwxR0Wv0xMI/edit#heading=h.mh48o2h9ps9f' },
+    { name: 'Guerra 3 lb', link: 'https://docs.google.com/document/d/17QN0frI29Gl5NHOOpmWr1Euv9XmDuQrkkwxR0Wv0xMI/edit#heading=h.mh48o2h9ps9f' },
+    { name: 'Guerra 12 lb', link: 'https://docs.google.com/document/d/17QN0frI29Gl5NHOOpmWr1Euv9XmDuQrkkwxR0Wv0xMI/edit#heading=h.mh48o2h9ps9f' },
     { name: 'Robosoccer', link: 'some' }
   ]
 
@@ -44,7 +45,6 @@ export default function Carrousel () {
       <div className='group bg-base-dark h-5/6 h- min-w-full m-auto'>
         <div
           className=' h-full max-w-full bg-cover bg-center bg-white flex items-center justify-between px-3 md:px-5 xl:px-7'
-          style={{ backgroundImage: `url(${imagesArray[currentIndex].image})` }}
         >
 
           {/* --- Left arrows --- */}
@@ -77,8 +77,11 @@ export default function Carrousel () {
           </div>
 
           {/* -------- Midle text -------- */}
-          <div className='h-1/2 text-xl font-bold text-base-medium self-end hover:text-primary hover:cursor-pointer hover:underline'>{imagesArray[currentIndex].name}</div>
-
+          <div className='h-1/2 text-xl font-bold text-base-medium self-end hover:text-primary hover:cursor-pointer hover:underline'>
+            <Link to={`${imagesArray[currentIndex].link}`}>
+              {imagesArray[currentIndex].name}
+            </Link>
+          </div>
           {/* --- Right arrows --- */}
 
           <div
