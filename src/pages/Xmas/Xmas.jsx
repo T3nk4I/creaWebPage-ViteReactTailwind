@@ -58,7 +58,6 @@ function Xmas () {
                 <li>Guerra 3 lb</li>
                 <li>Guerra 12 lb</li>
                 <li>Robosoccer</li>
-                <li>Exposicion de Humanoide</li>
               </ul>
             </p>
             <p className=' max-w-prose text-sm mx-auto px-8 pt-7'>

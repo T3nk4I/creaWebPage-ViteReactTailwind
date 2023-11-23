@@ -7,13 +7,17 @@ import { RxDotFilled } from 'react-icons/rx'
 // You can delete or modify any object in the array
 export default function Carrousel () {
   const imagesArray = [
-    { name: 'Guerra de Robots' },
-    { name: 'Minisumos' },
-    { name: 'Seguidor de linea' },
-    { name: 'Robosoccer' },
-    { name: 'Laberinto' },
-    { name: 'Carrera de insectos' },
-    { name: 'Drones' }
+    { name: 'Minisumo autónomo profesional', link: 'some' },
+    { name: 'Minisumo RC profesional', link: 'some' },
+    { name: 'Minisumo autónomo amateur', link: 'some' },
+    { name: 'Minisumo RC amateur', link: 'some' },
+    { name: 'Microsumo', link: 'some' },
+    { name: 'Seguidor de línea profesional', link: 'some' },
+    { name: 'Seguidor de línea amateur', link: 'some' },
+    { name: 'Guerra 1 lb', link: 'some' },
+    { name: 'Guerra 3 lb', link: 'some' },
+    { name: 'Guerra 12 lb', link: 'some' },
+    { name: 'Robosoccer', link: 'some' }
   ]
 
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -36,7 +40,7 @@ export default function Carrousel () {
 
   return (
     // Has w-full and h-full to adjust its entire size as its father, where will be imported
-    <div className='w-full lg:mx-auto lg:w-5/6 xl:w-4/6 h-full mx-auto flex flex-col items-center justify-center pb-6'>
+    <div className='w-full px-6 lg:mx-auto h-full mx-auto flex flex-col items-center justify-center pb-6'>
       <div className='group bg-base-dark h-5/6 h- min-w-full m-auto'>
         <div
           className=' h-full max-w-full bg-cover bg-center bg-white flex items-center justify-between px-3 md:px-5 xl:px-7'
@@ -66,17 +70,10 @@ export default function Carrousel () {
           </div>
 
           <div
-            className=' hidden xl:block 2xl:hidden opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
+            className=' hidden xl:block opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
           cursor-pointer duration-75 py-3'
           >
             <BsChevronCompactLeft size={45} onClick={prevSlide} />
-          </div>
-
-          <div
-            className=' hidden 2xl:block opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
-          cursor-pointer duration-75 py-3'
-          >
-            <BsChevronCompactLeft size={50} onClick={prevSlide} />
           </div>
 
           {/* -------- Midle text -------- */}
@@ -106,17 +103,10 @@ export default function Carrousel () {
           </div>
 
           <div
-            className=' hidden xl:block 2xl:hidden opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
+            className=' hidden xl:block opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
           cursor-pointer duration-75 py-3'
           >
             <BsChevronCompactRight size={45} onClick={nextSlide} />
-          </div>
-
-          <div
-            className=' hidden 2xl:block  opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
-          cursor-pointer duration-75 py-3'
-          >
-            <BsChevronCompactRight size={50} onClick={nextSlide} />
           </div>
         </div>
       </div>

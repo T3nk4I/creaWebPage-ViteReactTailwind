@@ -13,7 +13,7 @@ export default function Xmas () {
               Xmas
             </Link>
           </h2>
-          <h4 className='hidden sm:block text-base-medium text-opacity-75 font-semibold text-sm w-full text-center  pt-2 pb-4 tracking-wide'>
+          <h4 className='hidden sm:block text-black font-semibold text-sm w-full text-center  pt-2 pb-4 tracking-wide'>
             <Link to='/xmas' className=' cursor-pointer hover:text-primary hover:underline'>
               ¡Conoce nuestro evento anual más importante! Inscríbete
             </Link>
