@@ -8,7 +8,7 @@ export default function Xmas () {
       <div className='h-1/4'>
         <div className='w-full text-center pt-4'>
 
-          <h2 className='font-bold text-lg text-primary-dark tracking-wide'>
+          <h2 className='font-bold text-lg text-primary tracking-wide'>
             <Link to='/xmas' className=' cursor-pointer hover:text-primary-light hover:underline '>
               Xmas
             </Link>

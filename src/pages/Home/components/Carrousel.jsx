@@ -77,7 +77,7 @@ export default function Carrousel () {
           </div>
 
           {/* -------- Midle text -------- */}
-          <div className='h-1/2 text-xl font-bold text-base-medium self-end hover:text-primary hover:cursor-pointer hover:underline'>
+          <div className='text-center text-sm md:text-base px-4 mb-4 h-1/2 lg:text-xl font-bold text-base-medium self-end hover:text-primary hover:cursor-pointer hover:underline'>
             <Link to={`${imagesArray[currentIndex].link}`}>
               {imagesArray[currentIndex].name}
             </Link>
