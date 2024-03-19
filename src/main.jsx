@@ -17,15 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </section>
     <Routes>
       <Route
-        index
-        element={
-          <div className=' max-w-full font-sans font-light '>
-            <Home />
-          </div>
-          }
-      />
-      <Route
-        path='/home'
+        path='/'
         element={
           <div className=' max-w-full font-sans font-light '>
             <Home />
