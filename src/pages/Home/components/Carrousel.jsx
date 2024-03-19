@@ -12,13 +12,13 @@ export default function Carrousel () {
     { name: 'Minisumo RC profesional', link: 'https://docs.google.com/document/d/1k5rlef1_2SyRy3tnRFDPJI_7D0vdKj6_lh6LedBeh5c/edit#heading=h.lrxxfbed5gkl' },
     { name: 'Minisumo autónomo amateur', link: 'https://docs.google.com/document/d/1k5rlef1_2SyRy3tnRFDPJI_7D0vdKj6_lh6LedBeh5c/edit#heading=h.lrxxfbed5gkl' },
     { name: 'Minisumo RC amateur', link: 'https://docs.google.com/document/d/1k5rlef1_2SyRy3tnRFDPJI_7D0vdKj6_lh6LedBeh5c/edit#heading=h.lrxxfbed5gkl' },
-    { name: 'Microsumo', link: 'some' },
-    { name: 'Seguidor de línea profesional', link: 'some' },
-    { name: 'Seguidor de línea amateur', link: 'some' },
+    { name: 'Microsumo', link: 'https://docs.google.com/document/d/1Zd5_bKdkOZDldijVbBp4a5fnF_jPxZENVx-3VbZYtbQ/edit#heading=h.lrxxfbed5gkl' },
+    { name: 'Seguidor de línea profesional', link: 'https://docs.google.com/document/d/1Rf05I65rkRRZ-yZVycBUTn5rYrbeFq3orRDf3bm4B-w/edit#heading=h.32gsyl5eo0v1' },
+    { name: 'Seguidor de línea amateur', link: 'https://docs.google.com/document/d/1Rf05I65rkRRZ-yZVycBUTn5rYrbeFq3orRDf3bm4B-w/edit#heading=h.32gsyl5eo0v1' },
     { name: 'Guerra 1 lb', link: 'https://docs.google.com/document/d/17QN0frI29Gl5NHOOpmWr1Euv9XmDuQrkkwxR0Wv0xMI/edit#heading=h.mh48o2h9ps9f' },
     { name: 'Guerra 3 lb', link: 'https://docs.google.com/document/d/17QN0frI29Gl5NHOOpmWr1Euv9XmDuQrkkwxR0Wv0xMI/edit#heading=h.mh48o2h9ps9f' },
     { name: 'Guerra 12 lb', link: 'https://docs.google.com/document/d/17QN0frI29Gl5NHOOpmWr1Euv9XmDuQrkkwxR0Wv0xMI/edit#heading=h.mh48o2h9ps9f' },
-    { name: 'Robosoccer', link: 'some' }
+    { name: 'Robosoccer', link: 'https://docs.google.com/document/d/1An3iLLKc9C9CeJBwyR-7pms6LVJqUl4SOI4Y18ReCD8/edit' }
   ]
 
   const [currentIndex, setCurrentIndex] = useState(0)
