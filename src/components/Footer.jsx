@@ -17,7 +17,7 @@ export default function Footer () {
           Pagina web hecha por SHMIN
         </h5>
         <h5 className=' text-xs text-center py-1 text-base-medium'>
-          Contacto: https://github.com/Purple-Code-sh
+          Contactactame: https://github.com/Purple-Code-sh
         </h5>
       </div>
     </div>
