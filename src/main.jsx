@@ -25,6 +25,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           }
       />
       <Route
+        path='/'
+        element={
+          <div className=' max-w-full font-sans font-light '>
+            <Home />
+          </div>
+          }
+      />
+      <Route
         path='/xmas'
         element={
           <div className=' max-w-full font-sans font-light '>
