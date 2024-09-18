@@ -5,7 +5,7 @@ import DropDownMenu from './DropDownMenu'
 
 export default function Header () {
   return (
-    <div className='opacity-90 px-4 py-1 flex place-items-center h-full w-full border-b-2 border-b-primary-dark border-opacity-75 '>
+    <div className='opacity-90 px-4 py-1 flex place-items-center h-full w-full border-b-2 border-b-primary-dark border-opacity-80  '>
       <button className='h-full flex-shrink-0'>
         <Link to='/' className='h-full'>
           <img src={creaLogo} alt='CREA Logo' className='h-full' />
