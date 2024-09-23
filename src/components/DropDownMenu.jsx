@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import menuLogo from '../assets/menu.svg'
+import { Link } from 'react-router-dom'
 
 /* function classNames (...classes) {
   return classes.filter(Boolean).join(' ')
@@ -26,36 +27,26 @@ export default function DropDownMenu () {
       >
         <Menu.Items className='absolute right-0 z-50 mt-1 w-36 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-10 bg-opacity-100'>
           <Menu.Item>
-            <a
-              href='#'
-              className='block px-4 py-2 my-3 text-sm hover:text-primary-light text-primary-dark font-semibold'
-            >
+            <Link to='#' className='block px-4 py-2 my-3 text-sm hover:text-primary-light text-primary-dark font-semibold'>
               Contacto
-            </a>
+            </Link>
+
           </Menu.Item>
           <Menu.Item>
-            <a
-              href='#'
+            <Link
+              to='#'
               className='block px-4 py-2 my-3 text-sm  hover:text-primary-light'
             >
               Torneos
-            </a>
+            </Link>
           </Menu.Item>
           <Menu.Item>
-            <a
-              href='#'
+            <Link
+              to='/creaWebPage-ViteReactTailwind/about'
               className='block px-4 py-2 my-3 text-sm  hover:text-primary-light'
             >
-              Misión
-            </a>
-          </Menu.Item>
-          <Menu.Item>
-            <a
-              href='#'
-              className='block px-4 py-2 my-3 text-sm  hover:text-primary-light'
-            >
-              Visión
-            </a>
+              ¿Quiénes somos?
+            </Link>
           </Menu.Item>
         </Menu.Items>
       </Transition>
