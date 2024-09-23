@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </section>
     <Routes>
       <Route
-        index
+        path='/creaWebPage-ViteReactTailwind/'
         element={
           <div className=' max-w-full font-sans font-light '>
             <Home />
@@ -25,15 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           }
       />
       <Route
-        path='/'
-        element={
-          <div className=' max-w-full font-sans font-light '>
-            <Home />
-          </div>
-          }
-      />
-      <Route
-        path='/xmas'
+        path='/creaWebPage-ViteReactTailwind/xmas'
         element={
           <div className=' max-w-full font-sans font-light '>
             <Xmas />
@@ -41,7 +33,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           }
       />
       <Route
-        path='/register'
+        path='creaWebPage-ViteReactTailwind/register'
         element={
           <div className=' max-w-full font-sans font-light '>
             <Register />

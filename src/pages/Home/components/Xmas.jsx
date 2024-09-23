@@ -9,7 +9,7 @@ export default function Xmas () {
         <div className='w-full text-center pt-4'>
 
           <h2 className='font-bold text-lg text-primary tracking-wide'>
-            <Link to='/xmas' className=' cursor-pointer hover:text-primary-light hover:underline '>
+            <Link to='/creaWebPage-ViteReactTailwind/xmas' className=' cursor-pointer hover:text-primary-light hover:underline '>
               Xmas
             </Link>
           </h2>
