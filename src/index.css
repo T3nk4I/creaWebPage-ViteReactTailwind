@@ -4,7 +4,5 @@
 @tailwind variants;
 
 body {
-  padding: 0px;
-  margin: 0px;
   background-color: #474747;
 }

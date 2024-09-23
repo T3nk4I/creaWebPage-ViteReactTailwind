@@ -4,7 +4,7 @@ import Carrousel from './Carrousel'
 export default function Blog () {
   return (
     <div className='h-full w-full'>
-      <h2 className=' font-bold text-base text-primary-dark w-full text-center pt-4 tracking-wide'>
+      <h2 className='h-1/6 font-bold text-sm sm:text-base md:text-xl lg:text-2xl  text-primary-dark w-full tracking-wide flex place-items-center justify-center'>
         Reglamentos de categorias para Xmas
       </h2>
       <div className=' h-5/6'>

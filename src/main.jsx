@@ -9,25 +9,34 @@ import Header from './components/Header'
 import Home from './pages/Home/Home'
 import Xmas from './pages/Xmas/Xmas'
 import Register from './pages/Register/Register'
+import About from './pages/About/About'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <section className=' bg-white h-16 2xl:h-20  w-screen pt-1 lg:pt-2 px-2 sticky top-0 z-20'>
+    <section className=' bg-white w-screen overflow-hidden h-16 2xl:h-20 pt-1 lg:pt-2 px-2 sticky top-0 z-20'>
       <Header />
     </section>
     <Routes>
       <Route
         path='/creaWebPage-ViteReactTailwind/'
         element={
-          <div className=' max-w-full font-sans font-light '>
+          <div className='w-screen overflow-hidden font-sans font-light '>
             <Home />
+          </div>
+          }
+      />
+      <Route
+        path='/creaWebPage-ViteReactTailwind/about'
+        element={
+          <div className=' w-screen overflow-hidden font-sans font-light '>
+            <About />
           </div>
           }
       />
       <Route
         path='/creaWebPage-ViteReactTailwind/xmas'
         element={
-          <div className=' max-w-full font-sans font-light '>
+          <div className=' w-screen font-sans font-light overflow-hidden '>
             <Xmas />
           </div>
           }
@@ -35,7 +44,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route
         path='creaWebPage-ViteReactTailwind/register'
         element={
-          <div className=' max-w-full font-sans font-light '>
+          <div className=' w-screen  overflow-hidden font-sans font-light '>
             <Register />
           </div>
           }

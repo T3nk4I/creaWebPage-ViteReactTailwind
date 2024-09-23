@@ -1,4 +1,6 @@
 export { default as Home } from './Home'
+export { default as Achievements } from './components/Achievements'
 export { default as Blog } from './components/Blog'
+export { default as Carrousel } from './components/Carrousel'
 export { default as Categories } from './components/Categories'
 export { default as Xmas } from './components/Xmas'

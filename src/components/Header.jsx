@@ -5,7 +5,7 @@ import DropDownMenu from './DropDownMenu'
 
 export default function Header () {
   return (
-    <div className='opacity-90 px-4 py-1 flex place-items-center h-full w-full border-b-2 border-b-primary-dark border-opacity-80  '>
+    <div className='opacity-90 px-4 py-1 flex place-items-center h-full max-w-full border-b-2 border-b-primary-dark border-opacity-80  '>
       <button className='h-full flex-shrink-0'>
         <Link to='/creaWebPage-ViteReactTailwind/' className='h-full'>
           <img src={creaLogo} alt='CREA Logo' className='h-full' />
@@ -26,10 +26,9 @@ export default function Header () {
             <h3>Torneos</h3>
           </button>
           <button className=' hover:text-primary-light ml-10'>
-            <h3>Misión</h3>
-          </button>
-          <button className=' hover:text-primary-light ml-10'>
-            <h3>Visión</h3>
+            <Link to='/creaWebPage-ViteReactTailwind/about' className='h-full'>
+              <h3>¿Quiénes somos?</h3>
+            </Link>
           </button>
         </div>
       </div>
