@@ -4,6 +4,7 @@ import Footer from '../../components/Footer'
 
 // Page components
 import Categories from './components/Categories'
+import Achievements from './components/Achievements'
 import Blog from './components/Blog'
 import Xmas from './components/Xmas'
 
@@ -15,6 +16,11 @@ function Home () {
           <div className=' bg h-96 w-full'>
             <div className='bg-white h-full w-full z-10 pt-2'>
               <Categories />
+            </div>
+          </div>
+          <div className=' bg w-full'>
+            <div className='bg-white w-full z-10 pt-2'>
+              <Achievements />
             </div>
           </div>
           <div className=' h-96 w-full sm:flex'>
