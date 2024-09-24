@@ -44,7 +44,7 @@ export default function Carrousel () {
     <div className='w-full px-6 lg:mx-auto h-full mx-auto flex flex-col items-center justify-center pb-6'>
       <div className='group bg-base-dark h-5/6 h- min-w-full m-auto'>
         <div
-          className=' h-full max-w-full bg-cover bg-center bg-white flex items-center justify-between px-3 md:px-5 xl:px-7'
+          className=' h-full max-w-full bg-cover bg-center flex items-center justify-between px-3 md:px-5 xl:px-7'
         >
 
           {/* --- Left arrows --- */}

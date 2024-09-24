@@ -10,29 +10,29 @@ import Xmas from './components/Xmas'
 
 function Home () {
   return (
-    <div className='p-0 m-0 bg-white w-full'>
+    <div className='p-0 m-0 bg-dark w-full'>
       <div>
-        <section className='w-full bg-white'>
-          <div className=' bg h-96 w-full'>
-            <div className='bg-white h-full w-full z-10 pt-2'>
+        <section className='w-full'>
+          <div className='h-96 w-full'>
+            <div className='h-full w-full z-10 pt-2'>
               <Categories />
             </div>
           </div>
-          <div className=' bg w-full'>
-            <div className='bg-white w-full z-10 pt-2'>
+          <div className='w-full'>
+            <div className='w-full z-10 pt-2'>
               <Achievements />
             </div>
           </div>
           <div className=' h-96 w-full sm:flex'>
-            <div className='bg-white w-full h-1/2 sm:h-full sm:w-1/2 border border-base-light border-opacity-40'>
+            <div className='w-full h-1/2 sm:h-full sm:w-1/2 border border-black border-opacity-40'>
               <Xmas />
             </div>
-            <div className='bg-white w-full h-1/2 sm:h-full sm:w-1/2 border border-base-light border-opacity-50'>
+            <div className='w-full h-1/2 sm:h-full sm:w-1/2 border border-black border-opacity-50'>
               <Blog />
             </div>
           </div>
         </section>
-        <div className=' bg-primary-dark w-full h-auto'>
+        <div className=' bg-black w-full h-auto'>
           <Footer />
         </div>
       </div>

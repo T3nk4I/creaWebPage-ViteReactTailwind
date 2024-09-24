@@ -7,7 +7,7 @@ export default function About () {
           <img src={creaLogo} alt='nuestro logo' className='h-full' />
         </div>
         <div className=' w-full lg:w-1/2 '>
-          <h2 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl text-center  text-base-medium/80 tracking-wide mb-8 lg:-mt-8 '>CREA: Club de Robotica ESIME Azcapotzalco</h2>
+          <h2 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl text-center  text-base-medium/80 tracking-wide mb-8 lg:-mt-8 '>CREA: Club de Robótica ESIME Azcapotzalco</h2>
           <div className=' w-full p-12 bg-primary-dark lg:rounded-s-3xl'>
             <h3 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl  text-white tracking-wide max-w-prose'>
               Somos un club enfocado en la creación e innovación de proyectos tecnológicos, con un enfoque en la robótica de competencia.
@@ -23,7 +23,7 @@ export default function About () {
             Visión
           </h2>
           <p className='p-2 px-4 max-w-prose font-medium text-base-medium '>
-            Ser el mejor club de robótica de toda latinoamérica y obtener reconocimiento a nivel mundial. Ser un nuevo pilar para el progreso tecnologíco en nuestro país.
+            Convertirnos en el mejor club de robótica de toda latinoamérica y obtener reconocimiento a nivel mundial. Además de ser un nuevo pilar para el progreso tecnologíco en nuestro país.
           </p>
         </div>
         <div className=' mt-10 pb-10 lg:mt-0 lg:pb-0 lg:w-1/2'>
@@ -31,7 +31,7 @@ export default function About () {
             Misión
           </h2>
           <p className='p-2 px-4 max-w-prose font-medium text-base-medium '>
-            Obtener la mayor cantidad de titulos tanto nacionales como internacionales en las distintas categorias en las que participamos y ser uno de los mayores representantes de robótica competitiva en México
+            Obtener la mayor cantidad de titulos, tanto nacionales como internacionales, en las distintas categorias en las que participamos y ser uno de los mayores representantes de robótica competitiva en México.
           </p>
         </div>
       </div>

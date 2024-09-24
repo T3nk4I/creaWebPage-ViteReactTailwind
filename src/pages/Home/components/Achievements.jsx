@@ -1,4 +1,4 @@
-import achievements from '../assets/achievements.webp'
+import achievements from '../assets/achievements2.png'
 import { Link } from 'react-router-dom'
 
 export default function Achievements () {

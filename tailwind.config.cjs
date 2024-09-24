@@ -11,20 +11,11 @@ module.exports = {
       transparent: 'transparent',
       white: '#ffffff',
       black: '#000000',
-      primary: {
-        light: '#E43452',
-        DEFAULT: '#A3263A',
-        dark: '#631724'
-      },
-      complementary: 'darkorange',
-      darkComplementary: '#e27c00',
-
-      base: {
-        light: '#CCCCCC',
-        lightOrange: '#5f4c32',
-        medium: '#474747',
-        dark: '#B0B0B0'
-      }
+      primary: '#DB7C00',
+      primary_light: '#FEEA00',
+      complementary: '#E4007C',
+      light: '#FEFADC',
+      dark: '#380042'
     },
     extend: {}
   },

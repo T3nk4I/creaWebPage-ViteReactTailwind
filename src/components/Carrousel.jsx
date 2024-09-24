@@ -46,9 +46,9 @@ export default function Carrousel () {
   return (
     // Has w-full and h-full to adjust its entire size as its father, where will be imported
     <div className='w-full lg:mx-auto lg:w-5/6 xl:w-4/6 h-full mx-auto flex flex-col items-center justify-center pb-6'>
-      <div className='group bg-base-dark h-5/6 h- min-w-full m-auto'>
+      <div className='group h-5/6 h- min-w-full m-auto'>
         <div
-          className=' h-full max-w-full bg-cover bg-center bg-white flex items-center justify-between px-3 md:px-5 xl:px-7'
+          className=' h-full max-w-full bg-cover bg-center flex items-center justify-between px-3 md:px-5 xl:px-7'
           style={{ backgroundImage: `url(${imagesArray[currentIndex].image})` }}
         >
           {/* --- Left arrows --- */}
@@ -128,14 +128,14 @@ export default function Carrousel () {
 
       {/* --- Section name --- */}
 
-      <div className=' sm:text-base md:text-lg lg:text-xl h-1/6 flex flex-col place-items-center justify-center text-base-lightOrange '>
+      <div className=' sm:text-base md:text-lg lg:text-xl h-1/6 flex flex-col place-items-center justify-center text-light'>
         {/* -- Section dots -- */}
         <div className=' h-1/2 flex place-items-baseline justify-center'>
           {imagesArray.map((slide, index) => {
             if (index === currentIndex) {
               return (
                 <div
-                  className=' text-xl sm:text-2xl cursor-pointer scale-150 text-complementary '
+                  className=' text-xl sm:text-2xl cursor-pointer scale-150 text-primary '
                   key={index}
                   onClick={() => goToSlide(index)}
                 >
