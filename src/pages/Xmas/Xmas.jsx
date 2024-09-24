@@ -1,11 +1,15 @@
 // General components
+import { useEffect } from 'react'
 import Footer from '../../components/Footer'
-
 import snowMan from '../../assets/snowMan.png'
 import creaLogo from '../../assets/creaLogo.jpeg'
 import { Link } from 'react-router-dom'
 
 function Xmas () {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' })
+  }, [])
+
   return (
     <div className=' max-w-screen p-0 m-0 pt-14 bg-white'>
       <div>
@@ -28,7 +32,7 @@ function Xmas () {
                   7 y 8 de Diciembre ¡No faltes!
                 </h3>
                 <div className='mx-auto mt-8 w-fit flex-none'>
-                  <Link to='https://docs.google.com/forms/d/e/1FAIpQLSeibZ72C2mAxaysksWpbAc2JV6nWeZOvuzDmYRPu1lkU7ZGPQ/viewform' className=' text-base font-medium rounded-xl py-3 px-6 transition-colors bg-complementary hover:bg-primary  hover:text-white active:bg-primary-light active:text-white '>
+                  <Link to='https://docs.google.com/forms/d/e/1FAIpQLSeibZ72C2mAxaysksWpbAc2JV6nWeZOvuzDmYRPu1lkU7ZGPQ/viewform' className=' text-base font-medium rounded-xl py-3 px-6 transition-colors bg-primary_light hover:bg-primary  hover:text-white active:bg-primary-light active:text-white '>
                     Inscribete
                   </Link>
                 </div>
@@ -71,7 +75,7 @@ function Xmas () {
             </p>
           </div>
         </section>
-        <div className=' bg-primary-dark w-screen h-auto mt-8'>
+        <div className='bg-black w-screen h-auto mt-8'>
           <Footer />
         </div>
       </div>

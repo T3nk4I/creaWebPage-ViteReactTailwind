@@ -12,22 +12,22 @@ export default function DropDownMenu () {
     <Menu as='div'>
       <div>
         <Menu.Button>
-          <img src={menuLogo} alt='menu' />
+          <img src={menuLogo} alt='menu' className='text-light' />
         </Menu.Button>
       </div>
 
       <Transition
         as={Fragment}
         enter='transition ease-out duration-100'
-        enterFrom='transform opacity-0 scale-95'
+        enterFrom='transform opacity-20 scale-95'
         enterTo='transform opacity-100 scale-100'
         leave='transition ease-in duration-75'
         leaveFrom='transform opacity-100 scale-100'
-        leaveTo='transform opacity-0 scale-95'
+        leaveTo='transform opacity-20 scale-95'
       >
-        <Menu.Items className='absolute right-0 z-50 mt-1 w-36 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-10 bg-opacity-100'>
+        <Menu.Items className='absolute right-0 z-50 mt-1 w-36 origin-top-right rounded-md bg-dark shadow-lg ring-1 ring-black ring-opacity-20 bg-opacity-100'>
           <Menu.Item>
-            <Link to='#' className='block px-4 py-2 my-3 text-sm hover:text-primary-light text-primary-dark font-semibold'>
+            <Link to='#' className='block px-4 py-2 my-3 text-sm hover:text-primary text-light'>
               Contacto
             </Link>
 
@@ -35,7 +35,7 @@ export default function DropDownMenu () {
           <Menu.Item>
             <Link
               to='#'
-              className='block px-4 py-2 my-3 text-sm  hover:text-primary-light'
+              className='block px-4 py-2 my-3 text-sm hover:text-primary text-light'
             >
               Torneos
             </Link>
@@ -43,7 +43,7 @@ export default function DropDownMenu () {
           <Menu.Item>
             <Link
               to='/creaWebPage-ViteReactTailwind/about'
-              className='block px-4 py-2 my-3 text-sm  hover:text-primary-light'
+              className='block px-4 py-2 my-3 text-sm hover:text-primary text-light font-semibold'
             >
               ¿Quiénes somos?
             </Link>
