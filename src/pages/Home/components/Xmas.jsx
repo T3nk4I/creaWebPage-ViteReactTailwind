@@ -8,13 +8,13 @@ export default function Xmas () {
       <div className='h-1/4'>
         <div className='w-full text-center pt-4'>
 
-          <h2 className='font-bold text-lg text-primary tracking-wide'>
-            <Link to='/creaWebPage-ViteReactTailwind/xmas' className=' cursor-pointer hover:text-primary-light hover:underline '>
+          <h2 className='font-bold text-lg text-light tracking-wide'>
+            <Link to='/creaWebPage-ViteReactTailwind/xmas' className=' cursor-pointer hover:text-primary hover:underline '>
               Evento Xmas 2024
             </Link>
           </h2>
-          <h4 className='hidden sm:block text-black font-semibold text-sm w-full text-center  pt-2 pb-4 tracking-wide'>
-            <Link to='/creaWebPage-ViteReactTailwind/xmas' className=' cursor-pointer hover:text-primary hover:underline'>
+          <h4 className='hidden sm:block text-light/60 font-semibold text-sm w-full text-center  pt-2 pb-4 tracking-wide'>
+            <Link to='/creaWebPage-ViteReactTailwind/xmas' className=' cursor-pointer hover:text-primary'>
               ¡Conoce nuestro evento anual más importante! Inscríbete
             </Link>
           </h4>

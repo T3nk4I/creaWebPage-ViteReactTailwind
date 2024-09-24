@@ -42,7 +42,7 @@ export default function Carrousel () {
   return (
     // Has w-full and h-full to adjust its entire size as its father, where will be imported
     <div className='w-full px-6 lg:mx-auto h-full mx-auto flex flex-col items-center justify-center pb-6'>
-      <div className='group bg-base-dark h-5/6 h- min-w-full m-auto'>
+      <div className='group bg-base-dark h-5/6 min-w-full m-auto'>
         <div
           className=' h-full max-w-full bg-cover bg-center flex items-center justify-between px-3 md:px-5 xl:px-7'
         >
@@ -77,7 +77,7 @@ export default function Carrousel () {
           </div>
 
           {/* -------- Midle text -------- */}
-          <div className='text-center text-sm md:text-base px-4 mb-4 h-1/2 lg:text-xl font-bold text-base-medium self-end hover:text-primary hover:cursor-pointer hover:underline'>
+          <div className='text-center text-sm md:text-base px-4 mb-4 h-1/2 lg:text-xl font-bold text-light self-end hover:text-primary hover:cursor-pointer hover:underline'>
             <Link to={`${imagesArray[currentIndex].link}`}>
               {imagesArray[currentIndex].name}
             </Link>
@@ -123,7 +123,7 @@ export default function Carrousel () {
             if (index === currentIndex) {
               return (
                 <div
-                  className=' text-xl sm:text-2xl cursor-pointer scale-150 text-complementary '
+                  className=' text-xl sm:text-2xl cursor-pointer scale-150 text-primary '
                   key={index}
                   onClick={() => goToSlide(index)}
                 >
