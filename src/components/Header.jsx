@@ -19,13 +19,13 @@ export default function Header () {
           Club de Robótica
         </div>
         <div className='flex flex-shrink-0 justify-end pr-4 text-xs text-light md:text-sm lg:text-base xl:text-lg 2xl:text-xl'>
-          <button className='font-semibold hover:text-primary'>
+          <button className='font-semibold hover:text-primary active:text-primary_light'>
             <h3>Contacto</h3>
           </button>
-          <button className='ml-10 hover:text-primary'>
+          <button className='ml-10 hover:text-primary active:text-primary_light'>
             <h3>Torneos</h3>
           </button>
-          <button className='ml-10 hover:text-primary'>
+          <button className='ml-10 hover:text-primary active:text-primary_light'>
             <Link to='/creaWebPage-ViteReactTailwind/about' className='h-full'>
               <h3>¿Quiénes somos?</h3>
             </Link>
