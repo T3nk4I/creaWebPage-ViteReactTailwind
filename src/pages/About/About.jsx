@@ -7,10 +7,10 @@ export default function About () {
           <img src={creaLogo} alt='nuestro logo' className='h-full' />
         </div>
         <div className=' w-full lg:w-1/2 '>
-          <h2 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl text-center  text-light/40 tracking-wide mb-8 lg:-mt-8 '>CREA: Club de Robótica ESIME Azcapotzalco</h2>
+          <h2 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl text-center  text-light/40 tracking-wide mt-8 mb-8 lg:-mt-8 '>CREA: Club de Robótica ESIME Azcapotzalco</h2>
           <div className=' w-full p-12 bg-gradient-to-tr from-primary/70 to-primary_light/65 lg:rounded-s-3xl'>
             <h3 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl tracking-wide max-w-prose drop-shadow'>
-              Somos un club enfocado en la creación e innovación de proyectos tecnológicos, con un enfoque en la robótica de competencia.
+              Somos un club dedicado a la creación e innovación de proyectos tecnológicos, con un enfoque en la robótica de competencia.
             </h3>
             <br />
             <h3 className=' text-sm sm:text-base md:text-lg lg:text-xl tracking-wide max-w-prose drop-shadow'>Representamos a nuestra institución participando en diversos torneos, tanto nacionales como internacionales. De igual manera promovemos y educamos sobre tecnología, impartiendo cursos, charlas y demostraciones.</h3>
@@ -31,7 +31,7 @@ export default function About () {
             Misión
           </h2>
           <p className='p-2 px-4 max-w-prose font-medium '>
-            Obtener la mayor cantidad de titulos, tanto nacionales como internacionales, en las distintas categorias en las que participamos y ser uno de los mayores representantes de robótica competitiva en México.
+            Obtener la mayor cantidad de títulos, tanto nacionales como internacionales, en las distintas categorias en las que participamos y ser uno de los mayores representantes de robótica competitiva en México.
           </p>
         </div>
       </div>

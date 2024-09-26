@@ -42,7 +42,7 @@ export default function Carrousel () {
   return (
     // Has w-full and h-full to adjust its entire size as its father, where will be imported
     <div className='w-full px-6 lg:mx-auto h-full mx-auto flex flex-col items-center justify-center pb-6'>
-      <div className='group bg-base-dark h-5/6 min-w-full m-auto'>
+      <div className='group h-5/6 min-w-full m-auto'>
         <div
           className=' h-full max-w-full bg-cover bg-center flex items-center justify-between px-3 md:px-5 xl:px-7'
         >
@@ -116,7 +116,7 @@ export default function Carrousel () {
 
       {/* --- Section name --- */}
 
-      <div className=' sm:text-base md:text-lg lg:text-xl h-1/6 flex flex-col place-items-center justify-center text-base-lightOrange '>
+      <div className=' sm:text-base md:text-lg lg:text-xl h-1/6 flex flex-col place-items-center justify-center '>
         {/* -- Section dots -- */}
         <div className=' h-1/2 flex place-items-baseline justify-center'>
           {imagesArray.map((slide, index) => {
@@ -133,7 +133,7 @@ export default function Carrousel () {
             } else {
               return (
                 <div
-                  className=' text-xl sm:text-2xl scale-110  cursor-pointer text-black/30 '
+                  className=' text-xl sm:text-2xl scale-110  cursor-pointer text-black/50 hover:text-complementary '
                   key={index}
                   onClick={() => goToSlide(index)}
                 >

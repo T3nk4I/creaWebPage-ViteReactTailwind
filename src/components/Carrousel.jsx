@@ -53,35 +53,35 @@ export default function Carrousel () {
         >
           {/* --- Left arrows --- */}
           <div
-            className=' block sm:hidden opacity-70 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/60  text-white
+            className=' block sm:hidden opacity-80 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/80 hover:bg-primary active:bg-complementary  text-white
           cursor-pointer duration-75 py-3'
           >
             <BsChevronCompactLeft size={25} onClick={prevSlide} />
           </div>
 
           <div
-            className=' hidden sm:block md:hidden opacity-70 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/60 text-white
+            className=' hidden sm:block md:hidden opacity-80 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/80 hover:bg-primary active:bg-complementary text-white
           cursor-pointer duration-75 py-3'
           >
             <BsChevronCompactLeft size={35} onClick={prevSlide} />
           </div>
 
           <div
-            className=' hidden md:block xl:hidden opacity-70 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/60 text-white
+            className=' hidden md:block xl:hidden opacity-80 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/80 hover:bg-primary active:bg-complementary text-white
           cursor-pointer duration-75 py-3'
           >
             <BsChevronCompactLeft size={40} onClick={prevSlide} />
           </div>
 
           <div
-            className=' hidden xl:block 2xl:hidden opacity-70 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/60 text-white
+            className=' hidden xl:block 2xl:hidden opacity-80 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/80 hover:bg-primary active:bg-complementary text-white
           cursor-pointer duration-75 py-3'
           >
             <BsChevronCompactLeft size={45} onClick={prevSlide} />
           </div>
 
           <div
-            className=' hidden 2xl:block opacity-70 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/60 text-white
+            className=' hidden 2xl:block opacity-80 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/80 hover:bg-primary active:bg-complementary text-white
           cursor-pointer duration-75 py-3'
           >
             <BsChevronCompactLeft size={50} onClick={prevSlide} />
@@ -90,35 +90,35 @@ export default function Carrousel () {
           {/* --- Right arrows --- */}
 
           <div
-            className=' block sm:hidden opacity-70 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/60 text-white
+            className=' block sm:hidden opacity-80 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/80 hover:bg-primary active:bg-complementary text-white
           cursor-pointer duration-75 py-3'
           >
             <BsChevronCompactRight size={25} onClick={nextSlide} />
           </div>
 
           <div
-            className=' hidden sm:block md:hidden opacity-70 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/60 text-white
+            className=' hidden sm:block md:hidden opacity-80 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/80 hover:bg-primary active:bg-complementary text-white
           cursor-pointer duration-75 py-3'
           >
             <BsChevronCompactRight size={35} onClick={nextSlide} />
           </div>
 
           <div
-            className=' hidden md:block xl:hidden opacity-70 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/60 text-white
+            className=' hidden md:block xl:hidden opacity-80 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/80 hover:bg-primary active:bg-complementary text-white
           cursor-pointer duration-75 py-3'
           >
             <BsChevronCompactRight size={40} onClick={nextSlide} />
           </div>
 
           <div
-            className=' hidden xl:block 2xl:hidden opacity-70 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/60 text-white
+            className=' hidden xl:block 2xl:hidden opacity-80 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/80 hover:bg-primary active:bg-complementary text-white
           cursor-pointer duration-75 py-3'
           >
             <BsChevronCompactRight size={45} onClick={nextSlide} />
           </div>
 
           <div
-            className=' hidden 2xl:block  opacity-70 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/60 text-white
+            className=' hidden 2xl:block  opacity-80 group-hover:opacity-100 w-fit h-fit rounded-xl bg-black/80 hover:bg-primary active:bg-complementary text-white
           cursor-pointer duration-75 py-3'
           >
             <BsChevronCompactRight size={50} onClick={nextSlide} />
@@ -145,7 +145,7 @@ export default function Carrousel () {
             } else {
               return (
                 <div
-                  className=' text-xl sm:text-2xl scale-110  cursor-pointer text-black/30 '
+                  className=' text-xl sm:text-2xl scale-110  cursor-pointer text-black/50 '
                   key={index}
                   onClick={() => goToSlide(index)}
                 >
