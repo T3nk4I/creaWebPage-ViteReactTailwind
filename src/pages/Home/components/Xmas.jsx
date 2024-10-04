@@ -9,12 +9,12 @@ export default function Xmas () {
         <div className='w-full text-center pt-4'>
 
           <h2 className='font-bold text-lg text-light tracking-wide'>
-            <Link to='/creaWebPage-ViteReactTailwind/xmas' className=' cursor-pointer hover:text-primary active:text-primary_light hover:underline '>
+            <Link to='/creaWebPage-ViteReactTailwind/xmas' className=' cursor-pointer hover:text-primary active:text-secondary hover:underline '>
               Evento Xmas 2024
             </Link>
           </h2>
           <h4 className='hidden sm:block text-light/60 font-semibold text-sm w-full text-center  pt-2 pb-4 tracking-wide'>
-            <Link to='/creaWebPage-ViteReactTailwind/xmas' className=' cursor-pointer hover:text-primary active:text-primary_light'>
+            <Link to='/creaWebPage-ViteReactTailwind/xmas' className=' cursor-pointer hover:text-primary active:text-secondary'>
               ¡Conoce nuestro evento anual más importante! Inscríbete
             </Link>
           </h4>

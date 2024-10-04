@@ -8,7 +8,7 @@ export default function About () {
         </div>
         <div className=' w-full lg:w-1/2 '>
           <h2 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl text-center  text-light/40 tracking-wide mt-8 mb-8 lg:-mt-8 '>CREA: Club de Robótica ESIME Azcapotzalco</h2>
-          <div className=' w-full p-12 bg-gradient-to-tr from-primary/70 to-primary_light/65 lg:rounded-s-3xl'>
+          <div className=' w-full p-12 bg-gradient-to-tr from-primary/70 to-accent/65 lg:rounded-s-3xl'>
             <h3 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl tracking-wide max-w-prose drop-shadow'>
               Somos un club dedicado a la creación e innovación de proyectos tecnológicos, con un enfoque en la robótica de competencia.
             </h3>

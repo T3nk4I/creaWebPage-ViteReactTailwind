@@ -32,7 +32,7 @@ function Xmas () {
                   7 y 8 de Diciembre ¡No faltes!
                 </h3>
                 <div className='mx-auto mt-8 w-fit flex-none'>
-                  <Link to='https://docs.google.com/forms/d/e/1FAIpQLSeibZ72C2mAxaysksWpbAc2JV6nWeZOvuzDmYRPu1lkU7ZGPQ/viewform' className=' text-base font-medium rounded-xl py-3 px-6 transition-colors bg-primary_light hover:bg-primary  hover:text-white active:bg-primary-light active:text-white '>
+                  <Link to='https://docs.google.com/forms/d/e/1FAIpQLSeibZ72C2mAxaysksWpbAc2JV6nWeZOvuzDmYRPu1lkU7ZGPQ/viewform' className=' text-base font-medium rounded-xl py-3 px-6 transition-colors bg-primary_light hover:bg-primary  hover:text-white active:bg-secondary active:text-white '>
                     Inscribete
                   </Link>
                 </div>
@@ -46,7 +46,7 @@ function Xmas () {
             </section>
           </main>
 
-          <div className=' lg:mt-12 lg:mb-10 lg:border-t border-base-light cursor-default'>
+          <div className=' lg:mt-12 lg:mb-10 lg:border-t border-secondary cursor-default'>
             <p className=' max-w-prose text-base mx-auto px-8 pt-7'>
               Las categorías en las que se realizarán las competencias son las
               siguientes:
@@ -68,7 +68,7 @@ function Xmas () {
               Puedes consultar los premios para cada categoría dando click {' '}
               <a
                 href='https://www.facebook.com/cc.roboticaazc'
-                className='text-primary font-bold underline underline-offset-2 hover:text-primary-light active:text-complementary '
+                className='text-primary font-bold underline underline-offset-2 hover:text-secondary active:text-accent '
               >
                 aquí
               </a>

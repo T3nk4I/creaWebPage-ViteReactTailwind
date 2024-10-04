@@ -77,7 +77,7 @@ export default function Carrousel () {
           </div>
 
           {/* -------- Midle text -------- */}
-          <div className='text-center text-sm md:text-base px-4 mb-4 h-1/2 lg:text-xl font-bold text-light self-end hover:text-primary active:text-primary_light cursor-pointer hover:underline'>
+          <div className='text-center text-sm md:text-base px-4 mb-4 h-1/2 lg:text-xl font-bold text-light self-end hover:text-primary active:text-secondary cursor-pointer hover:underline'>
             <Link to={`${imagesArray[currentIndex].link}`}>
               {imagesArray[currentIndex].name}
             </Link>
@@ -133,7 +133,7 @@ export default function Carrousel () {
             } else {
               return (
                 <div
-                  className=' text-xl sm:text-2xl scale-110  cursor-pointer text-black/50 hover:text-complementary '
+                  className=' text-xl sm:text-2xl scale-110  cursor-pointer text-black/50 hover:text-accent '
                   key={index}
                   onClick={() => goToSlide(index)}
                 >
