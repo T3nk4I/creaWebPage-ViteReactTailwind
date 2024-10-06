@@ -44,34 +44,30 @@ export default function Carrousel () {
     <div className='w-full px-6 lg:mx-auto h-full mx-auto flex flex-col items-center justify-center pb-6'>
       <div className='group h-5/6 min-w-full m-auto'>
         <div
-          className=' h-full max-w-full bg-cover bg-center flex items-center justify-between px-3 md:px-5 xl:px-7'
+          className=' h-full max-w-full bg-cover bg-center flex items-center justify-between px-3 md:px-5 xl:px-7 text-txt_white/80'
         >
 
           {/* --- Left arrows --- */}
           <div
-            className=' block sm:hidden opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80  text-white
-          cursor-pointer duration-75 py-3'
+            className=' block sm:hidden opacity-80 w-fit h-fit rounded-xl cursor-pointer duration-75 py-3 bg-black/50 hover:bg-accent_dark active:bg-primary'
           >
             <BsChevronCompactLeft size={25} onClick={prevSlide} />
           </div>
 
           <div
-            className=' hidden sm:block md:hidden opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
-          cursor-pointer duration-75 py-3'
+            className=' hidden sm:block md:hidden opacity-80 w-fit h-fit rounded-xl cursor-pointer duration-75 py-3 bg-black/50 hover:bg-accent_dark active:bg-primary'
           >
             <BsChevronCompactLeft size={35} onClick={prevSlide} />
           </div>
 
           <div
-            className=' hidden md:block xl:hidden opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
-          cursor-pointer duration-75 py-3'
+            className=' hidden md:block xl:hidden opacity-80 w-fit h-fit rounded-xl cursor-pointer duration-75 py-3 bg-black/50 hover:bg-accent_dark active:bg-primary'
           >
             <BsChevronCompactLeft size={40} onClick={prevSlide} />
           </div>
 
           <div
-            className=' hidden xl:block opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
-          cursor-pointer duration-75 py-3'
+            className=' hidden xl:block opacity-80 w-fit h-fit rounded-xl cursor-pointer duration-75 py-3 bg-black/50 hover:bg-accent_dark active:bg-primary'
           >
             <BsChevronCompactLeft size={45} onClick={prevSlide} />
           </div>
@@ -85,29 +81,25 @@ export default function Carrousel () {
           {/* --- Right arrows --- */}
 
           <div
-            className=' block sm:hidden opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
-          cursor-pointer duration-75 py-3'
+            className=' block sm:hidden opacity-80 w-fit h-fit rounded-xl cursor-pointer duration-75 py-3 bg-black/50 hover:bg-accent_dark active:bg-primary'
           >
             <BsChevronCompactRight size={25} onClick={nextSlide} />
           </div>
 
           <div
-            className=' hidden sm:block md:hidden opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
-          cursor-pointer duration-75 py-3'
+            className=' hidden sm:block md:hidden opacity-80 w-fit h-fit rounded-xl cursor-pointer duration-75 py-3 bg-black/50 hover:bg-accent_dark active:bg-primary'
           >
             <BsChevronCompactRight size={35} onClick={nextSlide} />
           </div>
 
           <div
-            className=' hidden md:block xl:hidden opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
-          cursor-pointer duration-75 py-3'
+            className=' hidden md:block xl:hidden opacity-80 w-fit h-fit rounded-xl cursor-pointer duration-75 py-3 bg-black/50 hover:bg-accent_dark active:bg-primary'
           >
             <BsChevronCompactRight size={40} onClick={nextSlide} />
           </div>
 
           <div
-            className=' hidden xl:block opacity-80 w-fit h-fit rounded-xl bg-black/50 hover:bg-black/80 text-white
-          cursor-pointer duration-75 py-3'
+            className=' hidden xl:block opacity-80 w-fit h-fit rounded-xl cursor-pointer duration-75 py-3 bg-black/50 hover:bg-accent_dark active:bg-primary'
           >
             <BsChevronCompactRight size={45} onClick={nextSlide} />
           </div>
@@ -133,7 +125,7 @@ export default function Carrousel () {
             } else {
               return (
                 <div
-                  className=' text-xl sm:text-2xl scale-110  cursor-pointer text-black/50 hover:text-accent '
+                  className=' text-xl sm:text-2xl scale-110  cursor-pointer text-black/70 hover:text-accent_dark '
                   key={index}
                   onClick={() => goToSlide(index)}
                 >

@@ -1,14 +1,14 @@
 import creaLogo from '../../assets/creaLogo.jpeg'
 export default function About () {
   return (
-    <div className='p-0 m-0 bg-dark text-light w-full'>
+    <div className='p-0 m-0 bg-dark w-full min-h-screen'>
       <div className='lg:flex items-center'>
-        <div className='w-full lg:w-1/2 justify-items-center'>
-          <img src={creaLogo} alt='nuestro logo' className='h-full' />
+        <div className='w-full lg:w-1/2'>
+          <img src={creaLogo} alt='nuestro logo' className='h-full lg:ml-12' />
         </div>
         <div className=' w-full lg:w-1/2 '>
-          <h2 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl text-center  text-light/40 tracking-wide mt-8 mb-8 lg:-mt-8 '>CREA: Club de Robótica ESIME Azcapotzalco</h2>
-          <div className=' w-full p-12 bg-gradient-to-tr from-primary/70 to-accent/65 lg:rounded-s-3xl'>
+          <h2 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl text-center text-txt_white/40 tracking-wide mt-8 mb-8 lg:-mt-8 '>CREA: Club de Robótica ESIME Azcapotzalco</h2>
+          <div className=' w-full p-12 bg-gradient-to-br from-primary/60 to-accent_dark/70 lg:rounded-s-3xl'>
             <h3 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl tracking-wide max-w-prose drop-shadow'>
               Somos un club dedicado a la creación e innovación de proyectos tecnológicos, con un enfoque en la robótica de competencia.
             </h3>
@@ -17,8 +17,8 @@ export default function About () {
           </div>
         </div>
       </div>
-      <div className='w-screen px-8 lg:px-0 lg:flex lg:py-8'>
-        <div className=' mt-6 lg:mt-0 lg:w-1/2 lg:pl-8'>
+      <div className='w-screen px-8 lg:px-0 lg:flex lg:py-10'>
+        <div className=' pt-2 mt-10 lg:mt-4 lg:w-1/2 lg:pl-8'>
           <h2 className='font-bold text-base sm:text-lg md:text-xl lg:text-2xl pl-4 tracking-wide mb-4 text-primary'>
             Visión
           </h2>
@@ -26,7 +26,7 @@ export default function About () {
             Convertirnos en el mejor club de robótica de toda latinoamérica y obtener reconocimiento a nivel mundial. Además de ser un nuevo pilar para el progreso tecnologíco en nuestro país.
           </p>
         </div>
-        <div className=' mt-10 pb-10 lg:mt-0 lg:pb-0 lg:w-1/2'>
+        <div className=' pt-2 mt-10 pb-10 lg:mt-4 lg:pb-0 lg:w-1/2'>
           <h2 className='font-bold text-base sm:text-lg md:text-xl lg:text-2xl pl-4 tracking-wide mb-4 text-primary'>
             Misión
           </h2>

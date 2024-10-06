@@ -5,7 +5,7 @@ import DropDownMenu from './DropDownMenu'
 
 export default function Header () {
   return (
-    <div className='opacity-90 px-4 py-1 flex place-items-center h-full max-w-full border-b-2 border-b-accent border-opacity-50'>
+    <div className='opacity-90 px-4 py-1 flex place-items-center h-full max-w-full border-b-2 border-b-accent_dark border-opacity-50'>
       <button className='h-full flex-shrink-0'>
         <Link to='/creaWebPage-ViteReactTailwind/' className='h-full'>
           <img src={creaLogo} alt='CREA Logo' className='h-full' />
@@ -15,10 +15,10 @@ export default function Header () {
         <DropDownMenu />
       </div>
       <div className=' collapse sm:visible flex flex-auto overflow-x-hidden'>
-        <div className='flex-auto text-center text-xl lg:text-2xl text-light/50 md:tracking-[.2em] lg:tracking-[.3em] xl:tracking-[.5em] 2xl:tracking-[.7em] opacity-75 uppercase invisible md:visible'>
+        <div className='flex-auto text-center text-xl lg:text-2xl text-txt_white_purple/30 md:tracking-[.2em] lg:tracking-[.3em] xl:tracking-[.5em] 2xl:tracking-[.7em] opacity-75 uppercase invisible md:visible'>
           Club de Robótica
         </div>
-        <div className='flex flex-shrink-0 justify-end pr-4 text-xs text-light md:text-sm lg:text-base xl:text-lg 2xl:text-xl'>
+        <div className='flex flex-shrink-0 justify-end pr-4 text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl'>
           <button className='hover:text-primary active:text-secondary '>
             <h3>Contacto</h3>
           </button>

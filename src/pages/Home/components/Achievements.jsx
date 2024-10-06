@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 export default function Achievements () {
   return (
-    <div>
-      <h2 className=' font-bold text-light/85 sm:text-lg md:text-xl lg:text-2xl w-full tracking-wide flex place-items-center justify-center cursor-pointer hover:text-primary active:text-secondary'>
-        <Link to='/creaWebPage-ViteReactTailwind/about' className='cursor-pointer h-full'>
+    <div className='bg-bg_purple_light pt-10'>
+      <h2 className='font-bold sm:text-lg md:text-xl lg:text-2xl tracking-wide cursor-pointer hover:text-primary active:text-secondary w-fit mx-auto'>
+        <Link to='/creaWebPage-ViteReactTailwind/about' className='cursor-pointer'>
           Nuestros logros
         </Link>
       </h2>
