@@ -1,14 +1,14 @@
-import creaLogo from '../../assets/creaLogo.jpeg'
+import creaLogo from '../../assets/creaLogo_alt.png'
 export default function About () {
   return (
-    <div className='p-0 m-0 bg-dark w-full min-h-screen'>
+    <div className='p-0 mt-20 bg-dark w-full min-h-screen'>
       <div className='lg:flex items-center'>
         <div className='w-full lg:w-1/2'>
           <img src={creaLogo} alt='nuestro logo' className='h-full lg:ml-12' />
         </div>
         <div className=' w-full lg:w-1/2 '>
           <h2 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl text-center text-txt_white/40 tracking-wide mt-8 mb-8 lg:-mt-8 '>CREA: Club de Robótica ESIME Azcapotzalco</h2>
-          <div className=' w-full p-12 bg-gradient-to-br from-primary/60 to-accent_dark/70 lg:rounded-s-3xl'>
+          <div className=' w-full p-12 bg-gradient-to-r from-accent/80 to-primary/80  lg:rounded-s-3xl'>
             <h3 className='font-bold text-sm sm:text-base md:text-lg lg:text-xl tracking-wide max-w-prose drop-shadow'>
               Somos un club dedicado a la creación e innovación de proyectos tecnológicos, con un enfoque en la robótica de competencia.
             </h3>

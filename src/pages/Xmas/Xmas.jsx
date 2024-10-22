@@ -13,7 +13,7 @@ function Xmas () {
     <div className=' p-0 m-0 pt-14'>
       <div>
         <section className='w-screen'>
-          <main className=' w-full lg:flex'>
+          <main className=' w-full lg:flex bg-gradient-to-b from-black to-bg_accent_dark/60'>
             <section className=' flex flex-col lg:flex-col lg:pr-14 w-full lg:w-1/2'>
               <div className=' flex-1 cursor-default content-center'>
                 <p className=' max-w-prose font-bold text-base lg:text-lg mx-auto px-12 pt-6 '>
@@ -30,7 +30,7 @@ function Xmas () {
                   4 y 5 de Diciembre ¡No faltes!
                 </h3>
                 <div className='mx-auto mt-8 w-fit flex-none'>
-                  <Link to='https://docs.google.com/forms/d/e/1FAIpQLSeibZ72C2mAxaysksWpbAc2JV6nWeZOvuzDmYRPu1lkU7ZGPQ/viewform' className=' text-base lg:text-lg font-medium rounded-xl py-3 px-6 text-black  bg-primary hover:bg-gradient-to-b from-primary/60 to-accent_dark/70 active:bg-secondary transition-all duration-300 '>
+                  <Link to='https://docs.google.com/forms/d/e/1FAIpQLSeibZ72C2mAxaysksWpbAc2JV6nWeZOvuzDmYRPu1lkU7ZGPQ/viewform' className=' text-base lg:text-lg font-medium rounded-xl py-3 px-6 text-black  bg-primary active:bg-secondary hover:bg-gradient-to-b from-primary to-accent_dark'>
                     Inscribete
                   </Link>
                 </div>
@@ -44,7 +44,7 @@ function Xmas () {
             </section>
           </main>
 
-          <div className=' lg:mt-12 bg-bg_purple_light py-14 cursor-default'>
+          <div className=' lg:pt-12 py-14 mb-20 cursor-default bg-gradient-to-b from-bg_accent_dark/60 to-black'>
             <p className=' font-bold max-w-prose text-base lg:text-lg mx-auto px-8'>
               Las categorías en las que se realizarán las competencias son las
               siguientes:

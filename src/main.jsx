@@ -14,7 +14,7 @@ import Footer from './components/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <section className=' bg-black text-txt_white w-screen h-16 2xl:h-24   pt-1 lg:pt-2 px-2 sticky top-0 z-20'>
+    <section className=' bg-gradient-to-b from-black to-transparent  backdrop-blur-xl    text-txt_white w-screen h-16 2xl:h-24   pt-1 lg:pt-2 px-2 sticky top-0 z-20'>
       <Header />
     </section>
     <div className='bg-black text-txt_white w-screen'>
