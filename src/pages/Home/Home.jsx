@@ -8,10 +8,10 @@ import Xmas from './components/Xmas'
 
 function Home () {
   return (
-    <div className=' bg-dark w-full'>
+    <div className=' w-full'>
       <div>
         <section className='w-full'>
-          <div className='w-full my-10'>
+          <div className='w-full mt-10'>
             <div className='h-96 w-full z-10'>
               <Categories />
             </div>
@@ -21,7 +21,7 @@ function Home () {
               <Achievements />
             </div>
           </div>
-          <div className=' h-96 w-full sm:flex bg-bg_purple_light pb-2'>
+          <div className=' h-96 w-full sm:flex pb-2'>
             <div className='w-full h-1/2 sm:h-full sm:w-1/2 p-2 '>
               <Xmas />
             </div>

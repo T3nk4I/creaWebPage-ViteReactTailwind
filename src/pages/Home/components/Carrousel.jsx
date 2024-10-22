@@ -125,7 +125,7 @@ export default function Carrousel () {
             } else {
               return (
                 <div
-                  className=' text-xl sm:text-2xl scale-110  cursor-pointer text-black/70 hover:text-accent_dark '
+                  className=' text-xl sm:text-2xl scale-110  cursor-pointer text-bg_purple_light  hover:text-accent_dark '
                   key={index}
                   onClick={() => goToSlide(index)}
                 >

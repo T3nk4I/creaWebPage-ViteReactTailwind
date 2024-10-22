@@ -14,10 +14,10 @@ import Footer from './components/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <section className=' bg-bg_purple text-txt_white w-screen h-16 2xl:h-20 pt-1 lg:pt-2 px-2 sticky top-0 z-20'>
+    <section className=' bg-black text-txt_white w-screen h-16 2xl:h-24   pt-1 lg:pt-2 px-2 sticky top-0 z-20'>
       <Header />
     </section>
-    <div className='bg-bg_purple text-txt_white w-screen'>
+    <div className='bg-black text-txt_white w-screen'>
       <Routes>
         <Route
           path='/creaWebPage-ViteReactTailwind/'

@@ -4,7 +4,7 @@ import creaNeedYou from '../assets/creaNeedYou.webp'
 
 export default function Xmas () {
   return (
-    <div className='h-full w-full bg-bg_purple rounded-3xl border-4 border-bg_purple_light'>
+    <div className='h-full w-full bg-bg_purple/40 rounded-3xl border-4 border-black'>
       <div className='h-1/4'>
         <div className='w-full text-center pt-4'>
 
