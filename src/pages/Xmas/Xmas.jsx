@@ -54,12 +54,14 @@ function Xmas () {
                 <li>Minisumo RC profesional</li>
                 <li>Minisumo RC amateur</li>
                 <li>Microsumo</li>
+                <li>Midisumo</li>
                 <li>Seguidor de línea profesional</li>
                 <li>Seguidor de línea amateur</li>
                 <li>Guerra 1 lb</li>
                 <li>Guerra 3 lb</li>
                 <li>Guerra 12 lb</li>
                 <li>Robosoccer</li>
+                <li>Insecto</li>
               </ul>
             </p>
             <p className=' max-w-prose text-sm mx-auto px-8 pt-7'>
