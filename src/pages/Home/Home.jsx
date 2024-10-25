@@ -10,31 +10,25 @@ import Hero from './components/Hero'
 function Home () {
   return (
     <div className=' w-full'>
-      <div>
-        <section className='w-full'>
-          <div className='w-full'>
-            <div className='w-full'>
-              <Hero />
-            </div>
-            <div className='h-96 w-full mt-10 z-10'>
-              <Categories />
-            </div>
+      <section className='w-full'>
+        <div className='w-full'>
+          <Hero />
+        </div>
+        <div className=' h-96 w-full sm:flex pb-2'>
+          <div className='w-full h-1/2 sm:h-full sm:w-1/2 p-2 '>
+            <Xmas />
           </div>
-          <div className='w-full'>
-            <div className='w-full z-10'>
-              <Achievements />
-            </div>
+          <div className='w-full h-1/2 sm:h-full sm:w-1/2 p-2'>
+            <Blog />
           </div>
-          <div className=' h-96 w-full sm:flex pb-2'>
-            <div className='w-full h-1/2 sm:h-full sm:w-1/2 p-2 '>
-              <Xmas />
-            </div>
-            <div className='w-full h-1/2 sm:h-full sm:w-1/2 p-2'>
-              <Blog />
-            </div>
-          </div>
-        </section>
-      </div>
+        </div>
+        <div className='w-full z-10'>
+          <Achievements />
+        </div>
+        <div className='w-full z-10 mb-20'>
+          <Categories />
+        </div>
+      </section>
     </div>
   )
 }
