@@ -5,6 +5,7 @@ import Categories from './components/Categories'
 import Achievements from './components/Achievements'
 import Blog from './components/Blog'
 import Xmas from './components/Xmas'
+import Hero from './components/Hero'
 
 function Home () {
   return (
@@ -12,6 +13,9 @@ function Home () {
       <div>
         <section className='w-full'>
           <div className='w-full mt-10'>
+            <div className='w-full'>
+              <Hero />
+            </div>
             <div className='h-96 w-full z-10'>
               <Categories />
             </div>

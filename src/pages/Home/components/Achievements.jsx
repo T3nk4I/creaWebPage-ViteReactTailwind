@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Achievements () {
   return (
-    <div className=' pt-20 bg-gradient-to-b from-bg_purple/60 to-black'>
+    <div className=' pt-20 bg-gradient-to-b from-bg_purple/75 to-black'>
       <h2 className='font-bold sm:text-lg md:text-xl lg:text-2xl tracking-wide cursor-pointer hover:text-primary active:text-secondary w-fit mx-auto'>
         <Link to='/creaWebPage-ViteReactTailwind/about' className='cursor-pointer'>
           Nuestros logros
