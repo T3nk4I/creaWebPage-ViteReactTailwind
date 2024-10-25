@@ -12,11 +12,11 @@ function Home () {
     <div className=' w-full'>
       <div>
         <section className='w-full'>
-          <div className='w-full mt-10'>
+          <div className='w-full'>
             <div className='w-full'>
               <Hero />
             </div>
-            <div className='h-96 w-full z-10'>
+            <div className='h-96 w-full mt-10 z-10'>
               <Categories />
             </div>
           </div>

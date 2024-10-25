@@ -1,7 +1,7 @@
 // General components
 import { useEffect } from 'react'
 import snowMan from '../../assets/snowMan.png'
-import creaLogo from '../../assets/creaLogo.jpeg'
+import creaLogo from '../../assets/creaLogo_alt.png'
 import { Link } from 'react-router-dom'
 
 function Xmas () {
@@ -30,7 +30,7 @@ function Xmas () {
                   4 y 5 de Diciembre ¡No faltes!
                 </h3>
                 <div className='mx-auto mt-8 w-fit flex-none'>
-                  <Link to='https://docs.google.com/forms/d/e/1FAIpQLSeibZ72C2mAxaysksWpbAc2JV6nWeZOvuzDmYRPu1lkU7ZGPQ/viewform' className=' text-base lg:text-lg font-medium rounded-xl py-3 px-6 text-black  bg-primary active:bg-secondary hover:bg-gradient-to-b from-primary to-accent_dark'>
+                  <Link to='https://docs.google.com/forms/d/e/1FAIpQLSdPmPZQSUtVt3pN-Dk3IOiIFgLFZ8DT6pNls18MvjHuOVF6lQ/viewform?usp=sf_link' className=' text-base lg:text-lg font-medium rounded-xl py-3 px-6 text-black  bg-primary active:bg-secondary hover:bg-gradient-to-b from-primary to-accent_dark'>
                     Inscribete
                   </Link>
                 </div>
@@ -39,7 +39,7 @@ function Xmas () {
             <section className='w-full lg:w-1/2'>
               <div className=' mt-6 pl-6 pr-2 flex items-center mx-auto w-full'>
                 <img src={snowMan} alt='' className=' w-1/2 p-3' />
-                <img src={creaLogo} alt='' className=' w-1/2' />
+                <img src={creaLogo} alt='' className=' w-1/3' />
               </div>
             </section>
           </main>
