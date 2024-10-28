@@ -15,7 +15,7 @@ export default function Xmas () {
           </h2>
           <h4 className='hidden sm:block  font-semibold text-sm w-full text-center  pt-2 pb-4 tracking-wide'>
             <Link to='/creaWebPage-ViteReactTailwind/xmas' className=' cursor-pointer hover:text-primary active:text-secondary'>
-              ¡Conoce nuestro evento anual más importante! Inscríbete
+              Más informacion
             </Link>
           </h4>
         </div>

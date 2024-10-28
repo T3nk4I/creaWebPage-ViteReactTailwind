@@ -29,8 +29,8 @@ function Xmas () {
                 <h3 className=' text-lg lg:text-xl text-center mt-10 text-primary font-bold'>
                   4 y 5 de Diciembre ¡No faltes!
                 </h3>
-                <div className='mx-auto mt-8 w-fit flex-none'>
-                  <Link to='https://docs.google.com/forms/d/e/1FAIpQLSdPmPZQSUtVt3pN-Dk3IOiIFgLFZ8DT6pNls18MvjHuOVF6lQ/viewform?usp=sf_link' className=' text-base lg:text-lg font-medium rounded-xl py-3 px-6 text-black  bg-primary active:bg-secondary hover:bg-gradient-to-b from-primary to-accent_dark'>
+                <div className='mx-auto mt-8 w-fit flex-none text-base lg:text-lg font-medium rounded-xl py-3 px-6 text-black bg-primary hover:bg-secondary/85 hover:scale-105'>
+                  <Link to='https://docs.google.com/forms/d/e/1FAIpQLSdPmPZQSUtVt3pN-Dk3IOiIFgLFZ8DT6pNls18MvjHuOVF6lQ/viewform?usp=sf_link' className=' active:text-white hover:font-semibold cursor-pointer'>
                     Inscribete
                   </Link>
                 </div>
