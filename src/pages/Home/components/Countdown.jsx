@@ -35,7 +35,7 @@ const Countdown = () => {
       <span className={`text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold relative text-txt_white_purple ${styles.animateGlow}`}>
         {value}
       </span>
-      <span className='text-sm lg:text-base 2xl:text-xl text-txt_white'>{label}</span>
+      <span className={`text-sm lg:text-base 2xl:text-xl text-txt_white ${styles.neonEffect}`}>{label}</span>
     </div>
   )
 
@@ -44,7 +44,7 @@ const Countdown = () => {
       <h1 className='text-sm sm:text-base md:text-lg lg:text-xl 2xl:text-2xl mb-6 md:mb-10 xl:mb-14 text-txt_white_purple'>
         Tiempo restante para el evento
       </h1>
-      <div className='flex justify-center space-x-10'>
+      <div className='flex justify-center space-x-10 md:space-x-12 xl:space-x-14'>
         <TimeUnit value={timeLeft.months} label='M' />
         <TimeUnit value={timeLeft.days} label='D' />
         <TimeUnit value={timeLeft.hours} label='Hr' />
