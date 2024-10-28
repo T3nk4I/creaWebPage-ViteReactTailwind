@@ -32,7 +32,7 @@ const Countdown = () => {
 
   const TimeUnit = ({ value, label }) => (
     <div className='flex flex-col items-center'>
-      <span className={`text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold text-primary relative ${styles.animateGlow}`}>
+      <span className={`text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold relative text-txt_white_purple ${styles.animateGlow}`}>
         {value}
       </span>
       <span className='text-sm lg:text-base 2xl:text-xl text-txt_white'>{label}</span>
