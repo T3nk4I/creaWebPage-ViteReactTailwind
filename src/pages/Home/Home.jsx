@@ -26,10 +26,10 @@ function Home () {
             <Blog />
           </div>
         </div>
-        <div className='w-full z-10'>
+        <div className='w-full'>
           <Achievements />
         </div>
-        <div className='w-full z-10 mb-20'>
+        <div className='w-full mb-20'>
           <Categories />
         </div>
       </section>

@@ -1,0 +1,32 @@
+/* styles.css */
+@keyframes glow {
+
+    0%,
+    100% {
+        text-shadow:
+            0 0 4px #8C5A2E,
+            /* Sombra cercana más oscura */
+            0 0 8px #A6037A,
+            /* Sombra un poco más suave */
+            0 0 12px rgba(163, 3, 122, 0.5),
+            /* Brillo tenue */
+            0 0 16px rgba(163, 3, 122, 0.3);
+        /* Luz difusa */
+    }
+
+    50% {
+        text-shadow:
+            0 0 2px #591934,
+            /* Reducir sombras en el punto medio */
+            0 0 4px #8C5A2E,
+            0 0 6px rgba(163, 3, 122, 0.4),
+            /* Ajustar brillo */
+            0 0 10px rgba(163, 3, 122, 0.2);
+        /* Luz difusa */
+    }
+}
+
+.animateGlow {
+    animation: glow 2s ease-in-out infinite alternate;
+    /* Color base para el texto */
+}
