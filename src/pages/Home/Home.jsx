@@ -14,11 +14,11 @@ function Home () {
         <div className='w-full'>
           <Hero />
         </div>
-        <div className=' h-96 w-full sm:flex pb-2'>
-          <div className='w-full h-1/2 sm:h-full sm:w-1/2 p-2 '>
+        <div className='w-full h-fit sm:flex pb-2'>
+          <div className='w-full sm:w-1/2 p-2 '>
             <Xmas />
           </div>
-          <div className='w-full h-1/2 sm:h-full sm:w-1/2 p-2'>
+          <div className='w-full h-auto sm:w-1/2 p-2'>
             <Blog />
           </div>
         </div>
