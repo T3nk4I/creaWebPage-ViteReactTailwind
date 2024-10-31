@@ -15,10 +15,10 @@ const Countdown = () => {
     })
 
     return {
-      months: duration.months,
-      days: duration.days,
-      hours: duration.hours,
-      minutes: duration.minutes
+      months: duration.months || 0,
+      days: duration.days || 0,
+      hours: duration.hours || 0,
+      minutes: duration.minutes || 0
     }
   }
 
@@ -33,7 +33,7 @@ const Countdown = () => {
   const TimeUnit = ({ value, label }) => (
     <div className='flex flex-col items-center'>
       <span className={`text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold relative text-txt_white_purple ${styles.animateGlow}`}>
-        {value}
+        {value !== undefined ? value : 0}
       </span>
       <span className={`text-sm lg:text-base 2xl:text-xl text-txt_white ${styles.neonEffect}`}>{label}</span>
     </div>
